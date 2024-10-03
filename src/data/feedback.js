@@ -17,7 +17,7 @@ const feedback = [
     title: "CEO of (FlaxStudio)",
     des: (
       <>
-       I was suffering from migraines for years, but Dr. Surbhi's expertise in neurology made all the difference. She is compassionate and very knowledgeable.
+       I was suffering from migraines for years, but Dr. Surbhis expertise in neurology made all the difference. She is compassionate and very knowledgeable.
       </>
     ),
   },

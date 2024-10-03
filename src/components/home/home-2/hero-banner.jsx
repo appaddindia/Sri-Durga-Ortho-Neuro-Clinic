@@ -45,7 +45,7 @@ const hero_slider = [
       " MBBS (BMCRI), MS Orthopaedic (PGIMER), Senior Registrar (AIIMS New Delhi), Fellowship in Advanced Arthoplasty (SICOT), Fellowship in Shoulder & Knee Arthoscopy, (Royal College of Surgeons England)",
     section_des: (
       <>
-        Dr. Shashikanth Vokkaleri is a Joint Replacement and Arthroscopic Surgeon with 12 years of experience. He is committed to preserving patients' natural ligaments and joints to enhance their quality of life. He aims to provide affordable, high-quality, and suitable treatments by utilizing advanced science and technology in his practice.
+        Dr. Shashikanth Vokkaleri is a Joint Replacement and Arthroscopic Surgeon with 12 years of experience. He is committed to preserving patients natural ligaments and joints to enhance their quality of life. He aims to provide affordable, high-quality, and suitable treatments by utilizing advanced science and technology in his practice.
       </>
     ),
     know_more:"/",

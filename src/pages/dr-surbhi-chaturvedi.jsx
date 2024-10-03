@@ -1,9 +1,9 @@
 import SEO from "@/components/seo";
-import TeamDetailsSec from "@/components/team//-sec";
+import TeamDetailsSec from "@/components/team/team-details/team-details-sec";
 import Wrapper from "@/layout/wrapper";
 import React from "react";
 
-const Index = () => {
+const index = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Team Details" />
@@ -12,4 +12,4 @@ const Index = () => {
   );
 };
 
-export default Index;;
+export default index;

@@ -96,37 +96,37 @@ const FooterFour = ({ style_2 = false }) => {
                     <div className="tp-footer-widget__links">
                       <ul>
                         <li>
-                          <a href="/orthopaedic-consultation">Orthopaedic consultation</a>
+                          <Link href="/orthopaedic-consultation">Orthopaedic consultation</Link>
                         </li>
                         <li>
-                          <a href="/sports-injury-treatments">Sports Injury Treatments</a>
+                          <Link href="/sports-injury-treatments">Sports Injury Treatments</Link>
                         </li>
                         <li>
-                          <a href="/ligament-tear">Ligament Tear</a>
+                          <Link href="/ligament-tear">Ligament Tear</Link>
                         </li>
                         <li>
-                          <a href="/bone-fracture-treatment">Bone Fracture Treatment</a>
+                          <Link href="/bone-fracture-treatment">Bone Fracture Treatment</Link>
                         </li>
                         <li>
-                          <a href="/frozen-shoulder">Frozen shoulder</a>
+                          <Link href="/frozen-shoulder">Frozen shoulder</Link>
                         </li>
                         <li>
-                          <a href="/regenerative-treatment">Regenerative treatment</a>
+                          <Link href="/regenerative-treatment">Regenerative treatment</Link>
                         </li>
                         <li>
-                          <a href="/tendo-achilles-tendinitis">Tendo Achilles tendinitis</a>
+                          <Link href="/tendo-achilles-tendinitis">Tendo Achilles tendinitis</Link>
                         </li>
                         <li>
-                          <a href="/diagnostic-laboratory">Diagnostic laboratory</a>
+                          <Link href="/diagnostic-laboratory">Diagnostic laboratory</Link>
                         </li>
                         <li>
-                          <a href="/stemcell-therapy">Stemcell therapy</a>
+                          <Link href="/stemcell-therapy">Stemcell therapy</Link>
                         </li>
                         <li>
-                          <a href="/dequervains-release">Dequervains release</a>
+                          <Link href="/dequervains-release">Dequervains release</Link>
                         </li>
                         <li>
-                          <a href="/plantar-fascitis">plantar fascitis</a>
+                          <Link href="/plantar-fascitis">plantar fascitis</Link>
                         </li>
                       </ul>
                     </div>
@@ -145,14 +145,14 @@ const FooterFour = ({ style_2 = false }) => {
                         <li>1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
                         </li>
                         {/* <li>
-                          <a href="tel:95382 98050">
+                          <Link href="tel:95382 98050">
                           95382 98050
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="mailto:support@rstheme.com">
+                          <Link href="mailto:support@rstheme.com">
                           sridurgaorthoneuroclinic@gmail.com
-                          </a>
+                          </Link>
                         </li> */}
                         <li>Office Hours: 9AM - 5PM</li>
                         <li>Sunday - Wekend Day</li>

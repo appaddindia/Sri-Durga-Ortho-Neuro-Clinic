@@ -34,7 +34,7 @@ const Servicerow = ({data}) => {
           </div> */}
           
           <div className="row mb-15">
-            {data.map((item) => (
+            {data.map((item,i) => (
               // <div key={item.id} className="col-xl-3 col-lg-4 col-md-6">
               //   <div
               //     className={`services-item tp-services-item mb-50 ml-${item.ml} wow fadeInUp`}
@@ -53,7 +53,7 @@ const Servicerow = ({data}) => {
               //     </div>
               //   </div>
               // </div>
-              <div className="col-xl-3 col-lg-4 col-md-6 mb-25">
+              <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 mb-25">
                     <div className="tp-blog__thumb p-relative fix">
                       <a href="#">
                         
