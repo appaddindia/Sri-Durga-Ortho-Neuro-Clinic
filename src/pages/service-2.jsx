@@ -3,7 +3,7 @@ import ServiceTwo from "@/components/services/service-two";
 import Wrapper from "@/layout/wrapper";
 import React from "react";
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Service 2" />
@@ -12,4 +12,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;

@@ -4,7 +4,7 @@ import article_data from "@/data/article-data";
 import Wrapper from "@/layout/wrapper";
 import React from "react";
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Services" />
@@ -13,4 +13,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;

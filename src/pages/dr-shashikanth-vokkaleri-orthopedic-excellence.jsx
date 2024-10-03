@@ -3,7 +3,7 @@ import TeamDetails from "@/components/team//";
 import Wrapper from "@/layout/wrapper";
 import React from "react";
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Team Details" />
@@ -12,4 +12,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;

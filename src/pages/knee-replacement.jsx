@@ -4,7 +4,7 @@ import article_data from "@/data/article-data";
 import Wrapper from "@/layout/wrapper";
 import React, { useEffect, useState } from "react";
 
-const index = () => {
+const Index = () => {
     const [data, setData]=useState(article_data)
   useEffect(()=>{
     const update=article_data.filter((item)=>{
@@ -20,4 +20,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;

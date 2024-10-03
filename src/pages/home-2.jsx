@@ -6,7 +6,7 @@ import Wrapper from "@/layout/wrapper";
 import { Layout } from "antd";
 import React from "react";
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <SEO pageTitle="Home Main" />
@@ -17,4 +17,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;

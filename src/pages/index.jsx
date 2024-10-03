@@ -6,7 +6,7 @@ import Wrapper from "@/layout/wrapper";
 import LayoutTwo from "@/layout/layout-2";
 import HomeTwo from "@/components/home/home-2/hometwo";
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <LayoutTwo>
@@ -17,4 +17,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;

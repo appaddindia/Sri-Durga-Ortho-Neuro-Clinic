@@ -4,7 +4,7 @@ import SEO from "@/components/seo";
 import LayoutThree from "@/layout/layout-3";
 import Wrapper from "@/layout/wrapper";
 
-const index = () => {
+const Index = () => {
   return (
     <Wrapper>
       <LayoutThree>
@@ -15,4 +15,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;;
