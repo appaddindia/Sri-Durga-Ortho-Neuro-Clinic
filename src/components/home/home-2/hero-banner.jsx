@@ -104,9 +104,9 @@ const HeroBanner = () => {
   }, []);
   return (
     <>
-      <section  style={{backgroundColor:"#f4f5fa"}} className="slider-area  pt-90 pb-90 p-relative">
-        <div style={{backgroundColor:"#f4f5fa"}}  className="slider-social">
-          <div style={{backgroundColor:"#f4f5fa"}}  className="container">
+      <section  style={{backgroundColor:"#f0fff0"}} className="slider-area  pt-90 pb-90 p-relative">
+        <div style={{backgroundColor:"#f0fff0"}}  className="slider-social">
+          <div style={{backgroundColor:"#f0fff0"}}  className="container">
             <div className="row">
               {/* <div className="col-lg-6 col-md-10 d-none d-md-block">
                 <div className="slider-content__social">
@@ -170,11 +170,11 @@ const HeroBanner = () => {
                   <span className="tp-section__sub-title left-line mb-25">
                     {item.title}
                   </span>
-                  <h3 className="tp-section__title tp-ab-sm-title mb-25">
+                  <h3 style={{color:"#c61000"}} className="tp-section__title tp-ab-sm-title mb-25">
                     {item.section_title}
                   </h3>
-                  <i>{item.section_sub_title}</i>
-                  <p className=" mr-20 mb-25">{item.section_des}</p>
+                  <i style={{color:"black"}}>{item.section_sub_title}</i>
+                  <p style={{color:"black"}} className=" mr-20 mb-25">{item.section_des}</p>
                 </div>
                 {/* <div className="tp-about__info-list mb-55">
                   <ul>
@@ -189,7 +189,7 @@ const HeroBanner = () => {
                   <Link className="tp-btn" href={item.link}>
                     Know More 
                   </Link>
-                  <Link className="tp-btn-second ml-25" href="/contact">
+                  <Link style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
                     Book Appointment
                   </Link>
                 </div>

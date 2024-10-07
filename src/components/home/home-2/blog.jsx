@@ -100,7 +100,7 @@ const Blog = () => {
                 <span className="tp-section__sub-title left-line right-line mb-25">
                 Blog & News
                 </span>
-                <h3 style={{color:"#171151"}} className="tp-section__title title-white mb-55">
+                <h3 style={{color:"#c61000"}} className="tp-section__title title-white mb-55">
                 Latest Blog & News
                 </h3>
               </div>
@@ -123,7 +123,7 @@ const Blog = () => {
                       <h5 className="blog-item__title mb-15">
                         <Link href="/blog-details">{item.title}</Link>
                       </h5>
-                      <p>{item.des}</p>
+                      <p  style={{color:"black"}}>{item.des}</p>
                       <div className="blog-item__date-info">
                         <ul className="d-flex align-items-center">
                           <li>

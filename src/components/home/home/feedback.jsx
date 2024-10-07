@@ -56,7 +56,7 @@ const Feedback = () => {
                 <span className="tp-section__sub-title sub-title-white left-line-white right-line-white mb-25">
                   Testimonial
                 </span>
-                <h3 className="tp-section__title title-white mb-55">
+                <h3 style={{color:"#c61000"}} className="tp-section__title title-white mb-55">
                   Customer Feedback
                 </h3>
               </div>
@@ -82,7 +82,7 @@ const Feedback = () => {
                       <img style={{width:"24px",padding:"2px"}} src="/assets/img/star.png" alt="" />
                       <img style={{width:"24px",padding:"2px"}} src="/assets/img/star.png" alt="" />
                     </div>
-                    <p style={{height:"100px",overflowY:"scroll"}}>{item.des}</p>
+                    <p style={{height:"100px",overflowY:"scroll",color:"black"}}>{item.des}</p>
                     <h5 className="tp-testi__avata-title">{item.name}</h5>
                     <span className="tp-testi__ava-position">{item.title}</span>
                   </div>

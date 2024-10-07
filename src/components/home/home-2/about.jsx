@@ -90,15 +90,15 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
                   data-wow-delay=".3s"
                 >
                   <div className="tp-section">
-                    <span className="tp-section__sub-title left-line mb-25">
+                    <span  className="tp-section__sub-title left-line mb-25">
                       {sub_title}
                     </span>
-                    <h3 className="tp-section__title mb-25">{title}</h3>
+                    <h3  style={{color:"#c61000"}} className="tp-section__title mb-25">{title}</h3>
                     <i>{des_1}</i>
-                    <p className=" mr-20 mb-25">{dex_2}</p>
+                    <p style={{color:"black"}} className=" mr-20 mb-25">{dex_2}</p>
                   </div>
                   <div className="about-content__btn">
-                    <Link href="/about" className="tp-btn">
+                    <Link  href="/about" className="tp-btn">
                       {btn}
                     </Link>
                   </div>

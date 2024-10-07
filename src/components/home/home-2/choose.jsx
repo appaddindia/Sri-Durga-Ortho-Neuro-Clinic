@@ -98,7 +98,7 @@ const Choose = () => {
                     width={165}
                     height={165}
                     strokeWidth={3.2}
-                    strokeColor={"#10D0A1"}
+                    strokeColor={"#457c42"}
                     fontSize={133}
                   />
                  
