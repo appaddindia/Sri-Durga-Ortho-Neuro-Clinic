@@ -36,7 +36,7 @@ const choose = [
   },
   {
     id: 3,
-    color: "#10d0a1",
+    color: "#457c42",
     icon: "/assets/img/comprehensive.png",
     title: (
       <>
@@ -79,7 +79,7 @@ const Specialists = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="tp-section text-center">
-                <span className="tp-section__sub-title left-line right-line mb-25">
+                <span style={{color:"#c61000"}} className="tp-section__sub-title left-line right-line mb-25">
                 Sri Durga Ortho & Neuro Clinic
                 </span>
                 <h3 className="tp-section__title title-white mb-55">

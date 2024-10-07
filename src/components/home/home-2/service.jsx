@@ -211,7 +211,7 @@ const Service = () => {
                 <span className="tp-section__sub-title left-line right-line mb-25">
                 Orthopedic & Trauma
                 </span>
-                <h3 style={{color:"#171151"}} className="tp-section__title title-white mb-55">
+                <h3 style={{color:"#c61000"}} className="tp-section__title title-white mb-55">
                 Orthopedic and Trauma Solutions
                 </h3>
               </div>
@@ -249,16 +249,16 @@ const Service = () => {
                         <h4>{item.blog_date}</h4>
                       </div> */}
                     </div>
-                    <div  style={{backgroundColor:"#f2f5fa"}} className="tp-blog__content" >
+                    <div  style={{backgroundColor:"#f0fff0"}} className="tp-blog__content" >
                       {/* <span className="tp-blog__category mb-30">
                         <Link href="/blog-details">{item.blog_category}</Link>
                       </span> */}
                       <h5 className="tp-blog__title mb-10">
                         <Link href={item.link}>{item.blog_title}</Link>
                       </h5>
-                      <p style={{marginBottom:"15px"}}>{item.blog_des}</p>
+                      <p style={{marginBottom:"15px",color:"black"}}>{item.blog_des}</p>
                       <div  className="tp-blog__btn">
-                        <Link   href={item.link}>Read moRe</Link>
+                        <Link style={{backgroundColor:"#2a4825",color:"white"}}  href={item.link}>Read moRe</Link>
                       </div>
                     </div>
                   </div>

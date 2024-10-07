@@ -20,8 +20,8 @@ const HeaderTwo = () => {
           <div className="row align-items-center">
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
-                <Link href="/">
-                  <img src="/assets/img/logo/logo.png" alt="logo" />
+                <Link href="/">   
+                  <img src="/assets/img/logo.jpg" alt="logo" />
                 </Link>
               </div>
             </div>
@@ -36,16 +36,16 @@ const HeaderTwo = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <circle cx="2" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="17" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="12" r="2" fill="#0E63FF" />
+                      <circle cx="2" cy="2" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="2" r="2" fill="#2a4825" />
+                      <circle cx="12" cy="2" r="2" fill="#2a4825" />
+                      <circle cx="12" cy="7" r="2" fill="#2a4825" />
+                      <circle cx="12" cy="12" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="7" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="12" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="17" r="2" fill="#2a4825" />
+                      <circle cx="2" cy="7" r="2" fill="#2a4825" />
+                      <circle cx="2" cy="12" r="2" fill="#2a4825" />
                     </svg>
                     <span>Call Us :</span>+91 9980445660
                   </a>
@@ -69,7 +69,7 @@ const HeaderTwo = () => {
         >
           <div className="header-logo-box">
             <Link href="/">
-              <img src="/assets/img/logo/logo.png" alt="logo" />
+              {/* <img src="/assets/img/logo.jpg" alt="logo" />      */}
             </Link>
           </div>
           <div className="header-menu-box">
@@ -84,16 +84,16 @@ const HeaderTwo = () => {
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <circle cx="2" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="2" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="12" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="12" r="2" fill="#0E63FF" />
-                      <circle cx="7" cy="17" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="7" r="2" fill="#0E63FF" />
-                      <circle cx="2" cy="12" r="2" fill="#0E63FF" />
+                      <circle cx="2" cy="2" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="2" r="2" fill="#2a4825" />
+                      <circle cx="12" cy="2" r="2" fill="#2a4825" />
+                      <circle cx="12" cy="7" r="2" fill="#2a4825" />
+                      <circle cx="12" cy="12" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="7" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="12" r="2" fill="#2a4825" />
+                      <circle cx="7" cy="17" r="2" fill="#2a4825" />
+                      <circle cx="2" cy="7" r="2" fill="#2a4825" />
+                      <circle cx="2" cy="12" r="2" fill="#2a4825" />
                     </svg>
                     <span>Call Us :</span>
                     <a href="tel:+9159008855"> +91 9980445660 </a>
@@ -205,7 +205,7 @@ const HeaderTwo = () => {
                         </div>
                       </div> */}
                     </div>
-                    <Link className="header-bottom-btn" href="/about">
+                    <Link className="header-bottom-btn" href="/contact">
                       Book Appointment
                     </Link>
                   </div>

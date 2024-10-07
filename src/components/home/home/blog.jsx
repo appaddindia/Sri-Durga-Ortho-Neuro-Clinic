@@ -159,7 +159,7 @@ const Blog = () => {
                 <span className="tp-section__sub-title left-line right-line mb-25">
                 Neurological Treatments
                 </span>
-                <h3 style={{color:"#171151"}} className="tp-section__title title-white mb-55">
+                <h3 style={{color:"#c61000"}} className="tp-section__title title-white mb-55">
                 Advanced Neurological Treatment Solutions
                 </h3>
               </div>
@@ -187,19 +187,19 @@ const Blog = () => {
                         <h4>{item.blog_date}</h4>
                       </div> */}
                     </div>
-                    <div style={{backgroundColor:"#f2f5fa"}} className="tp-blog__content">
+                    <div style={{backgroundColor:"#f0fff0"}} className="tp-blog__content">
                       {/* <span className="tp-blog__category mb-30">
                         <Link href="/blog-details">{item.blog_category}</Link>
                       </span> */}
                       <h5 className="tp-blog__title mb-10">
                         <Link href={item.link}>{item.blog_title}</Link>
                       </h5>
-                      <p style={{marginBottom:"15px"}}>{item.blog_des}</p>
+                      <p style={{marginBottom:"15px",color:"black"}}>{item.blog_des}</p>
                       <div style={{display:"flex",justifyContent:"space-between"}}>
                       <div className="tp-blog__btn">
-                        <Link href={item.link}>Read moRe</Link>
+                        <Link style={{backgroundColor:"#f0fff0",border:"1px solid #457c42"}} href={item.link}>Read moRe</Link>
                       </div>
-                      <div style={{backgroundColor:"#171151",color:"white",borderRadius:"6px"}} className="tp-blog__btn">
+                      <div style={{backgroundColor:"#2a4825",color:"white",borderRadius:"6px"}} className="tp-blog__btn">
                         <Link href="/contact">Contact Us</Link>
                       </div>
                       </div>

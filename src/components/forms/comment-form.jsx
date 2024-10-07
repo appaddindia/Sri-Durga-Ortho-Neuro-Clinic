@@ -3,7 +3,7 @@ import React from "react";
 const CommentForm = () => {
   return (
     <>
-      <div style={{padding:"30px 25px",backgroundColor:"#f2f5fa",borderRadius:"8px"}} className="postbox__comment-form">
+      <div style={{padding:"30px 25px",backgroundColor:"#f0fff0",borderRadius:"8px"}} className="postbox__comment-form">
         <h3 className="postbox__comment-form-title">Leave a Quation</h3>
         <p style={{marginBottom:"15px"}}>
           Your email address will not be published. Required fields are marked *

@@ -68,7 +68,7 @@ const Servicerow = ({data}) => {
                         <h4>{item.blog_date}</h4>
                       </div> */}
                     </div>
-                    <div  style={{backgroundColor:"#f2f5fa"}} className="tp-blog__content" >
+                    <div  style={{backgroundColor:"#f0fff0"}} className="tp-blog__content" >
                       {/* <span className="tp-blog__category mb-30">
                         <Link href="/blog-details">{item.blog_category}</Link>
                       </span> */}
