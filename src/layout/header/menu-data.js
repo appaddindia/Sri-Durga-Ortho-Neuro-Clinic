@@ -32,7 +32,7 @@ const menu_data = [
         has_dropdown: true,
         sub_menus : [
           {
-            link: "/",
+            link: "/knee-replacement",
             title: "Knee Replacement",
             has_dropdown: true,
             sub_menus: [
@@ -42,7 +42,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/knee-arthroscopy",
             title: "Knee Arthroscopy",
             has_dropdown: true,
             sub_menus: [
@@ -56,7 +56,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/hip-replacement",
             title: "Hip Replacement",
             has_dropdown: true,
             sub_menus: [
@@ -66,7 +66,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/hip-arthroscopy",
             title: "Hip Arthroscopy",
             has_dropdown: true,
             sub_menus: [
@@ -75,7 +75,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/shoulder-replacement",
             title: "Shoulder Replacement",
             has_dropdown: true,
             sub_menus: [
@@ -84,7 +84,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/shoulder-arthroscopy",
             title: "Shoulder Arthroscopy",
             has_dropdown: true,
             sub_menus: [
@@ -96,7 +96,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/ankle-surgery",
             title: "Ankle Surgery",
             has_dropdown: true,
             sub_menus: [
@@ -105,7 +105,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/elbow-surgery",
             title: "Elbow Surgery",
             has_dropdown: true,
             sub_menus: [
@@ -115,7 +115,7 @@ const menu_data = [
             ],
           },
           {
-            link: "/service",
+            link: "/spine-surgery",
             title: "Spine Surgery",
             has_dropdown: true,
             sub_menus: [

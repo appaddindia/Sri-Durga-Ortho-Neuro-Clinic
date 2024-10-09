@@ -73,11 +73,11 @@ const Servicerow = ({data}) => {
                         <Link href="/blog-details">{item.blog_category}</Link>
                       </span> */}
                       <h5 className="tp-blog__title mb-10">
-                        <Link href="/blog-details">{item.title}</Link>
+                        <Link style={{color:"#2a4825"}} href={item.link}>{item.title}</Link>
                       </h5>
-                      <p style={{marginBottom:"15px"}}>{`${item.subdes.slice(0,90)}...`}</p>
+                      <p style={{marginBottom:"15px"}}>{`${item.subdes.slice(0,80)}...`}</p>
                       <div  className="tp-blog__btn">
-                        <Link   href={item.link}>Read moRe</Link>
+                        <Link  style={{backgroundColor:"#2a4825",color:"white"}}  href={item.link}>Read moRe</Link>
                       </div>
                     </div>
                   </div>

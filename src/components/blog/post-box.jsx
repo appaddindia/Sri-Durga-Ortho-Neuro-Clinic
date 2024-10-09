@@ -136,16 +136,16 @@ const PostBox = ({data}) => {
                     <div className="postbox__content">
                       
                       <h3 className="postbox__title mb-15">
-                        <Link href="/blog-details">{article.title}</Link>
+                        <Link  style={{color:"#2a4825"}} href="/">{article.title}</Link>
                       </h3>
                       <div className="postbox__text mb-25">
                         {article.des}
                       </div>
                       <div className="tp-about__btn">
-                  <Link className="tp-btn" href="/about">
+                  <Link className="tp-btn" href="/contact">
                     Contact Us
                   </Link>
-                  <Link className="tp-btn-second ml-25" href="/about">
+                  <Link  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
                     Book Appointment
                   </Link>
                 </div>

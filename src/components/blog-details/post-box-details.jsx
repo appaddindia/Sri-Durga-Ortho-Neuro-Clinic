@@ -51,14 +51,14 @@ const PostBoxDetails = () => {
                           </div>
 
                           <h3 className="postbox__title mb-15">
-                            <Link href="/blog-details">
+                            <Link  style={{color:"#2a4825"}} href="/blog-details">
                             Understanding Knee Replacement Surgery
                             </Link>
                           </h3>
-                          <p>
+                          <p  style={{color:"black"}}>
                           Knee replacement surgery, also known as knee arthroplasty, is a surgical procedure designed to alleviate pain and restore function in patients suffering from severe knee arthritis or damage. During the surgery, the damaged surfaces of the knee joint are removed and replaced with artificial components, typically made of metal and plastic. This procedure can be partial, replacing only a section of the knee, or total, where both the femur and tibia surfaces are replaced. Patients commonly seek knee replacement surgery after exhausting non-surgical treatments such as physical therapy, medications, or corticosteroid injections.
                           </p>
-                          <p>
+                          <p  style={{color:"black"}}>
                           The recovery process following knee replacement surgery generally involves physical therapy to regain strength and mobility. While many patients experience significant pain relief and improved function, the timeline for recovery varies; some may return to daily activities within a few weeks, while others might take several months for full rehabilitation. The surgery is associated with certain risks, including infection and blood clots, but overall, it is considered safe and effective for restoring quality of life to those with debilitating knee conditions.
                           </p>
                         </div>
@@ -206,14 +206,14 @@ const PostBoxDetails = () => {
                           </div>
 
                           <h3 className="postbox__title mb-15">
-                            <Link href="/blog-details">
+                            <Link style={{color:"#2a4825"}} href="/blog-details">
                             Exploring Minimally Invasive Options
                             </Link>
                           </h3>
-                          <p>
+                          <p  style={{color:"black"}}>
                           Minimally invasive surgery (MIS) refers to techniques that limit the size of incisions needed and reduce trauma to the body during surgical procedures. This approach often employs specialized instruments and technology, such as cameras and robotic systems, allowing surgeons to perform operations through smaller openings compared to traditional methods. The benefits of minimally invasive options include reduced pain, shorter hospital stays, faster recovery times, and less scarring, making it an attractive alternative for many patients.
                           </p>
-                          <p>
+                          <p style={{color:"black"}}>
                           In orthopedic surgery, for instance, minimally invasive techniques can be used for procedures like knee and hip replacements, as well as arthroscopic surgeries for joint repairs. By preserving surrounding tissues and structures, these methods promote quicker healing and help patients return to their daily activities sooner. As advancements in technology continue to evolve, minimally invasive options are becoming increasingly available across various surgical fields, providing patients with safer, more effective treatment choices that align with their recovery goals.
                           </p>
                         </div>
@@ -361,14 +361,14 @@ const PostBoxDetails = () => {
                           </div>
 
                           <h3 className="postbox__title mb-35">
-                            <Link href="/blog-details">
+                            <Link style={{color:"#2a4825"}} href="/blog-details">
                             Understanding and Navigating Memory Disorders
                             </Link>
                           </h3>
-                          <p>
+                          <p  style={{color:"black"}}>
                           Memory disorders encompass a range of conditions that affect a person’s ability to remember information, retain skills, and recall experiences. These disorders can stem from various causes, including neurodegenerative diseases like Alzheimers, traumatic brain injuries, strokes, or psychiatric conditions such as depression and anxiety. Symptoms may vary widely, from mild forgetfulness to profound memory loss, impacting daily functioning and quality of life. Understanding the specific type of memory disorder is crucial for effective management and treatment, as different conditions may require tailored approaches.
                           </p>
-                          <p>
+                          <p style={{color:"black"}}>
                           Navigating memory disorders involves a comprehensive evaluation by healthcare professionals, which may include neuropsychological assessments, brain imaging, and lab tests. Early diagnosis is essential for implementing strategies that can help slow progression and improve cognitive function. Interventions may include cognitive rehabilitation, medication management, and lifestyle modifications, such as engaging in mental exercises, maintaining social connections, and adopting a healthy diet. Support from caregivers and support groups is also vital, offering emotional assistance and practical strategies for coping with the challenges posed by memory disorders.
                           </p>
                         </div>

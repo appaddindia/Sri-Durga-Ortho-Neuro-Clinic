@@ -115,7 +115,7 @@ const Cta_Area = () => {
                     </div>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
-                      <Link href="/contact" className="tp-btn-second">{b_btn}</Link>
+                      <Link href="/contact"  className="tp-btn-second">{b_btn}</Link>
                     </div>
                     <div className="cta-shape d-none d-md-block">
                       <img src={b_img} alt="cta-logo-shape" />
