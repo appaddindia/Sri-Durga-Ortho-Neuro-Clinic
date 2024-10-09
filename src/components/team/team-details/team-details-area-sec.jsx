@@ -226,7 +226,7 @@ const TeamDetailsAreaSec = () => {
                   <Link className="tp-btn" href="/contact">
                     Contact Us
                   </Link>
-                  <Link className="tp-btn-second ml-25" href="/contact">
+                  <Link  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
                     Book Appointment
                   </Link>
                 </div>
