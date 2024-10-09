@@ -46,7 +46,7 @@ const Feedback = () => {
     <>
       <section
         className="testimonial-area testimonial-bg pt-90 pb-90"
-        style={{ backgroundImage: `url(/assets/img/shape/shape-bg-02.png)` }}
+        style={{ backgroundImage: `url(/assets/img/aa162.png)` }}
         data-background="assets/img/shape/shape-bg-02.png"
       >
         <div className="container">
@@ -56,7 +56,7 @@ const Feedback = () => {
                 <span className="tp-section__sub-title sub-title-white left-line-white right-line-white mb-25">
                   Testimonial
                 </span>
-                <h3 style={{color:"#c61000"}} className="tp-section__title title-white mb-55">
+                <h3 style={{color:"white"}} className="tp-section__title title-white mb-55">
                   Customer Feedback
                 </h3>
               </div>
