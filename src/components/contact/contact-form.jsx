@@ -40,9 +40,9 @@ const ContactForm = () => {
                     <img src="/assets/img/icon/contact-01.svg" alt="" />
                   </div>
                   <div className="tpcontact__address">
-                    <h4 className="tpcontact__title mb-15">Address line</h4>
+                    <h4 style={{color:"#2a4825"}} className="tpcontact__title mb-15">Address line</h4>
                     <span>
-                      <a href="https://www.google.com/maps/place/80+Feet+Rd,+Bengaluru,+Karnataka/@13.0214727,77.6262261,17z/data=!4m10!1m2!2m1!1sShiva+Ram+Karanath+Nagar,+No.+42+%26+25,+80+Feet+Rd,+MCEHS+Layout,+Rachenahalli,Hegde+Nagar+,+Bengaluru,+Karnataka+56007!3m6!1s0x3bae17180101d86f:0xe545d0793abc9066!8m2!3d13.0214727!4d77.628801!15sCnZTaGl2YSBSYW0gS2FyYW5hdGggTmFnYXIsIE5vLiA0MiAmIDI1LCA4MCBGZWV0IFJkLCBNQ0VIUyBMYXlvdXQsIFJhY2hlbmFoYWxsaSxIZWdkZSBOYWdhciAsIEJlbmdhbHVydSwgS2FybmF0YWthIDU2MDA3kgEFcm91dGXgAQA!16s%2Fg%2F1hhjzc_v7?entry=ttu&g_ep=EgoyMDI0MDkyOS4wIKXMDSoASAFQAw%3D%3D">{address}</a>
+                      <a  style={{color:"black"}} href="https://www.google.com/maps/place/80+Feet+Rd,+Bengaluru,+Karnataka/@13.0214727,77.6262261,17z/data=!4m10!1m2!2m1!1sShiva+Ram+Karanath+Nagar,+No.+42+%26+25,+80+Feet+Rd,+MCEHS+Layout,+Rachenahalli,Hegde+Nagar+,+Bengaluru,+Karnataka+56007!3m6!1s0x3bae17180101d86f:0xe545d0793abc9066!8m2!3d13.0214727!4d77.628801!15sCnZTaGl2YSBSYW0gS2FyYW5hdGggTmFnYXIsIE5vLiA0MiAmIDI1LCA4MCBGZWV0IFJkLCBNQ0VIUyBMYXlvdXQsIFJhY2hlbmFoYWxsaSxIZWdkZSBOYWdhciAsIEJlbmdhbHVydSwgS2FybmF0YWthIDU2MDA3kgEFcm91dGXgAQA!16s%2Fg%2F1hhjzc_v7?entry=ttu&g_ep=EgoyMDI0MDkyOS4wIKXMDSoASAFQAw%3D%3D">{address}</a>
                     </span>
                   </div>
                 </div>
@@ -56,9 +56,9 @@ const ContactForm = () => {
                     <img src="/assets/img/icon/contact-02.svg" alt="" />
                   </div>
                   <div className="tpcontact__address">
-                    <h4 className="tpcontact__title mb-15">Phone Number</h4>
+                    <h4 style={{color:"#2a4825"}} className="tpcontact__title mb-15">Phone Number</h4>
                     <span>
-                      <a href={`tel:${phone_1}`}>{phone_1}</a>
+                      <a  style={{color:"black"}} href={`tel:${phone_1}`}>{phone_1}</a>
                     </span>
                   </div>
                 </div>
@@ -72,8 +72,8 @@ const ContactForm = () => {
                     <img src="/assets/img/icon/contact-03.svg" alt="" />
                   </div>
                   <div className="tpcontact__address">
-                    <h4 className="tpcontact__title mb-15">Opening Hours</h4>
-                    <span>{open}</span>
+                    <h4 style={{color:"#2a4825"}} className="tpcontact__title mb-15">Opening Hours</h4>
+                    <span  style={{color:"black"}}>{open}</span>
                   </div>
                 </div>
               </div>

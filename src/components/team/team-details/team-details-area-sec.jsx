@@ -163,10 +163,10 @@ const TeamDetailsAreaSec = () => {
             <div className="col-lg-4 col-md-6">
               <div className="tp-team-dtls__content mt-50 mb-50">
                 <h4 className="tp-team-dtls__title mb-10">
-                  <Link href="/team-1">Dr. Surbhi Chaturvedi</Link>
+                  <Link  style={{color:"#c61000"}} href="/">Dr. Surbhi Chaturvedi</Link>
                 </h4>
                 <span className="mb-35">Neurologist</span>
-                <p>
+                <p  style={{color:"black"}}>
                 Dr. Surbhi Chaturvedi, a Consultant Neurologist and gold medalist, specializes in stroke management, migraines, and advanced neurological procedures, with extensive experience and numerous publications in the field.
                 </p>
                 <div className="tp-team-dtls__info">
@@ -213,10 +213,10 @@ const TeamDetailsAreaSec = () => {
                 <h4 className="tp-team-dtls-text__title mb-30">
                 Expert Neurologist Specialist
                 </h4>
-                <p>
+                <p style={{color:"black"}}>
                 Dr. Surbhi Chaturvedi is a highly regarded Consultant Neurologist with over five years of dedicated experience in the field. She earned her MD in Medicine in 2016 and completed her DM in Neurology in 2019, graduating as the topper of her class and receiving a prestigious Gold medal. Dr. Chaturvedi honed her skills during her training at the renowned National Institute of Mental Health and Neurosciences (NIMHANS) in India and further enhanced her expertise through a prestigious Stroke fellowship in Canada. As a Fellow of the Canadian Stroke Consortium, she has developed a strong focus on stroke management, among other neurological disorders.
                 </p>
-                <p>
+                <p style={{color:"black"}}>
                 Dr. Chaturvedis clinical expertise encompasses a wide range of conditions, including migraines, Parkinsons disease, epilepsy, and more. She excels in performing advanced procedures such as digital EEG and electromyography (EMG), which are essential for accurate diagnosis and treatment planning. In addition to her clinical work, she has authored numerous peer-reviewed publications and has established herself as a thought leader in the field by serving as a keynote speaker at international conferences. Dr. Chaturvedi’s commitment to advancing neurological care and her focus on patient outcomes make her an invaluable asset to her patients and the medical community.
                 </p>
               </div>
@@ -226,7 +226,7 @@ const TeamDetailsAreaSec = () => {
                   <Link className="tp-btn" href="/contact">
                     Contact Us
                   </Link>
-                  <Link className="tp-btn-second ml-25" href="/contact">
+                  <Link  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
                     Book Appointment
                   </Link>
                 </div>

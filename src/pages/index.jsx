@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <Wrapper>
       <LayoutTwo>
-      <SEO pageTitle="Home Two" />
+      <SEO pageTitle="Sri Durga Ortho & Neuro Clinic" />
         <HomeTwo />
       </LayoutTwo>
     </Wrapper>

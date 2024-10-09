@@ -6,9 +6,9 @@ const About = () => {
   // about content data
   const about_content = {
     about_bg: "/assets/img/shape/shape-bg-05.png",
-    about_img: "/assets/img/about/about-bg-02.png",
+    about_img: "/assets/img/aa167.jpg",
     popup_video: "https://www.youtube.com/watch?v=-BpXNPHiB2U",
-    about_thumb: "/assets/img/about/about-bg-03.png",
+    about_thumb: "/assets/img/aa166.png",
     title: "Sri Durga Ortho & Neuro Clinic",
     sub_title: "About",
     des_1: (
@@ -24,7 +24,7 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
     btn: "Know More",
 
     // booking data
-    booking_bg: "/assets/img/shape/shape-bg-04.png",
+    booking_bg: "/assets/img/aa167.jpg",
     b_sub_title: "book Free sampling",
     b_title: (
       <>
@@ -32,7 +32,7 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
       </>
     ),
     b_btn: "Book Now",
-    b_img: "/assets/img/shape/logo-shape-1.png",
+    b_img: "/assets/img/logo/logo.jpg",
   };
   const {
     about_bg,

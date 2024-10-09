@@ -163,10 +163,10 @@ const TeamDetailsArea = () => {
             <div className="col-lg-4 col-md-6">
               <div className="tp-team-dtls__content mt-50 mb-50">
                 <h4 className="tp-team-dtls__title mb-10">
-                  <Link href="/team-1">Dr. Shashikanth Vokkaleri</Link>
+                  <Link  style={{color:"#c61000"}}  href="/">Dr. Shashikanth Vokkaleri</Link>
                 </h4>
                 <span className="mb-35">Joint Replacement & Arthroscopic Surgeon</span>
-                <p>
+                <p  style={{color:"black"}}>
                 Expert orthopedic surgeon focused on minimally invasive, compassionate patient care.
                 </p>
                 <div className="tp-team-dtls__info">
@@ -213,10 +213,10 @@ const TeamDetailsArea = () => {
                 <h4 className="tp-team-dtls-text__title mb-30">
                 Compassionate Orthopedic Surgeon
                 </h4>
-                <p>
+                <p  style={{color:"black"}}>
                 Dr. Shashikanth Vokkaleri is a highly skilled Joint Replacement and Arthroscopic Surgeon with over 12 years of experience in the field. His expertise lies in preserving patients natural ligaments and joints, which plays a crucial role in enhancing their overall quality of life. By focusing on minimally invasive techniques, Dr. Vokkaleri ensures that patients experience less pain and a quicker recovery, allowing them to return to their daily activities sooner. His compassionate approach prioritizes patient comfort and satisfaction, making him a trusted choice for those seeking orthopedic care.
                 </p>
-                <p>
+                <p style={{color:"black"}}>
                 Committed to providing affordable yet high-quality treatments, Dr. Vokkaleri incorporates advanced science and technology into his practice. He stays updated with the latest innovations in orthopedic surgery, allowing him to offer tailored solutions that meet each patients unique needs. His dedication to patient education and involvement in the treatment process fosters a collaborative environment where individuals feel empowered to make informed decisions about their health. Through his exceptional skills and commitment to excellence, Dr. Vokkaleri aims to deliver optimal outcomes for all his patients.
                 </p>
               </div>
@@ -226,7 +226,7 @@ const TeamDetailsArea = () => {
                   <Link className="tp-btn" href="/contact">
                     Contact Us
                   </Link>
-                  <Link className="tp-btn-second ml-25" href="/contact">
+                  <Link style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
                     Book Appointment
                   </Link>
                 </div>

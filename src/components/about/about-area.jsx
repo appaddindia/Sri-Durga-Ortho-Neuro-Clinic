@@ -32,7 +32,7 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
       </>
     ),
     b_btn: "Book Now",
-    b_img: "/assets/img/shape/logo-shape-1.png",
+    b_img: "/assets/img/logo/logo.jpg",
   };
   const {
     about_bg,

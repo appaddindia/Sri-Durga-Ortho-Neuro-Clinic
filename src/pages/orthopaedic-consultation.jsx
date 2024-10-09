@@ -14,7 +14,7 @@ const Index = () => {
   },[])
   return (
     <Wrapper>
-      <SEO pageTitle="Blog" />
+      <SEO pageTitle="Sri Durga Ortho & Neuro Clinic" />
       <Blog data={data}/>
     </Wrapper>
   );

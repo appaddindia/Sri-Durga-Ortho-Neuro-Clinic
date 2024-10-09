@@ -26,7 +26,7 @@ const hero_slider = [
     ),
     know_more:"/",
       img_1: "/assets/img/aa14.jpg",
-      img_2: "/assets/img/slider/slider-bg-2.png",
+      img_2: "../assets/img/aa164.png",
   },
   {
     id:2,
@@ -50,7 +50,7 @@ const hero_slider = [
     ),
     know_more:"/",
       img_1: "/assets/img/aa13.jpg",
-      img_2: "/assets/img/slider/slider-bg-2.png",
+      img_2: "../assets/img/aa163.png",
   },
   
 ];

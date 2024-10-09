@@ -26,7 +26,7 @@ const Cta_Area = () => {
     btn: "Talk with Expart",
 
     // booking data
-    booking_bg: "/assets/img/shape/shape-bg-04.png",
+    booking_bg: "/assets/img/aa165.png",
     b_sub_title: "book Appointment",
     b_title: (
       <>
@@ -34,7 +34,7 @@ const Cta_Area = () => {
       </>
     ),
     b_btn: "Book Now",
-    b_img: "/assets/img/shape/logo-shape-1.png",
+    b_img: "/assets/img/logo/logo.jpg",
   };
   const {
     about_bg,
@@ -115,10 +115,10 @@ const Cta_Area = () => {
                     </div>
                     <h2 className="cta-title mb-30">{b_title}</h2>
                     <div className="cta-btn">
-                      <Link href="/contact" className="tp-btn-second">{b_btn}</Link>
+                      <Link href="/contact"  className="tp-btn-second">{b_btn}</Link>
                     </div>
                     <div className="cta-shape d-none d-md-block">
-                      <img src={b_img} alt="cta-logo-shape" />
+                      <img style={{width:"80px",marginTop:"-9px"}} src={b_img} alt="cta-logo-shape" />
                     </div>
                   </div>
                 </div>
