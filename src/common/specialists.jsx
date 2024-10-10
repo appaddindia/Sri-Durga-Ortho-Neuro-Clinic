@@ -90,12 +90,13 @@ const Specialists = () => {
           </div>
           <div className="row">
             {choose.map((item) => (
-              <div key={item.id} className="col-xl-3 col-md-6">
+              <div key={item.id} className="col-xl-3 col-md-6 ">
                 <div
-                  className="tp-choose__item ml-75 mb-55 wow fadeInUp"
+                  className="tp-choose__item pl-35 pr-35 mb-55 wow fadeInUp"
                   data-wow-delay=".8s"
                 >
-                  <div style={{backgroundColor:item.color}} className={`tp-choose__icon ${item.color} mb-40`}>
+                  <div style={{ display: "flex", justifyContent: "center", width: "100%" }}>
+                  <div style={{backgroundColor:item.color,}} className={`tp-choose__icon ${item.color} mb-40 justify-center`}>
                   <img 
             style={{ 
                 width: "80px", 
@@ -105,9 +106,10 @@ const Specialists = () => {
             alt="Icon" 
         />
                   </div>
+                  </div>
                   <div className="tp-choose__content">
-                    <h4 className="tp-choose__title mb-20">{item.title}</h4>
-                    <p>{item.des}</p>
+                    <h4 style={{textAlign: "center"}} className="tp-choose__title mb-20 ">{item.title}</h4>
+                    <p style={{textAlign: "center"}}>{item.des}</p>
                   </div>
                 </div>
               </div>
