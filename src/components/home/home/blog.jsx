@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper";
+import article_data from "@/data/article-data";
 
 
 
@@ -165,23 +166,19 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <Swiper
-            {...setting}
-            loop={isLoop}
-            modules={[Navigation]}
-            className="swiper-container tp-blog-active wow fadeInUp"
-            data-wow-delay=".3s"
-          >
-            {servicedata.map((item) => (
-              <SwiperSlide key={item.id}>
-                <div className="swiper-slide">
+            <div className="row">
+            {article_data.slice(48, 54).map((item) => (
+                <div key={item.id} className="col-lg-4 col-md-6 col-12">
                   <div className="tp-blog mb-30">
                     <div className="tp-blog__thumb p-relative fix">
                       <a href="#">
-                        <img src={item.img} alt="blog-item" />
+                      <div style={{width:"100%",aspectRatio:"3/2",backgroundImage: `url(${item.img})`,
+          backgroundPosition:"center",
+          backgroundSize:"cover"}}></div>
+                        {/* <img src={item.img} alt="blog-item" /> */}
                       </a>
-                      <span className="tp-blog__date text-center">
-                        <Link href={item.link}>{item.blog_date}</Link>
+                      <span  className="tp-blog__date text-center">
+                        <Link style={{backgroundColor:"rgba(0, 0, 0, 0.362)",padding:"5px 8px",color:"white"}} href={item.link}>{item.title}</Link>
                       </span> 
                       {/* <div className="tp-blog__date text-center">
                         <h4>{item.blog_date}</h4>
@@ -192,9 +189,9 @@ const Blog = () => {
                         <Link href="/blog-details">{item.blog_category}</Link>
                       </span> */}
                       <h5 className="tp-blog__title mb-10">
-                        <Link href={item.link}>{item.blog_title}</Link>
+                        <Link href={item.link}>{item.title}</Link>
                       </h5>
-                      <p style={{marginBottom:"15px",color:"black"}}>{item.blog_des}</p>
+                      <p style={{marginBottom:"15px",color:"black"}}>{item.subdes.slice(0,120)}</p>
                       <div style={{display:"flex",justifyContent:"space-between"}}>
                       <div className="tp-blog__btn">
                         <Link style={{backgroundColor:"#f0fff0",border:"1px solid #457c42"}} href={item.link}>Read moRe</Link>
@@ -206,9 +203,8 @@ const Blog = () => {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
             ))}
-          </Swiper>
+            </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="blog-link text-center">

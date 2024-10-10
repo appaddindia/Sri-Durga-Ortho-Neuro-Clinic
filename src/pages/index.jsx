@@ -8,12 +8,14 @@ import HomeTwo from "@/components/home/home-2/hometwo";
 
 const Index = () => {
   return (
-    <Wrapper>
+    <div style={{backgroundColor:"white"}}>
+      <Wrapper>
       <LayoutTwo>
       <SEO pageTitle="Sri Durga Ortho & Neuro Clinic" />
         <HomeTwo />
       </LayoutTwo>
     </Wrapper>
+    </div>
   );
 };
 
