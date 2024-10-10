@@ -122,7 +122,7 @@ const HeroBanner = () => {
                   ))}
                 </div>
               </div> */}
-              <div className="col-lg-6 col-md-2 col-12 d-none d-md-block">
+              <div className="col-lg-6 col-md-2 col-12  d-md-block">
                 <div className="slider-content__arrow d-flex align-items-center">
                   <div className="slider-p">
                     <i className="fa-regular fa-arrow-left"></i>

@@ -202,9 +202,9 @@ const FooterFour = ({ style_2 = false }) => {
                       <li>
                         <a href="#">Privacy policy</a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#">Pricing</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

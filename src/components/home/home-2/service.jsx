@@ -73,6 +73,27 @@ Hip replacement surgery, also known as hip arthroplasty, involves replacing a da
 
   {
     id: 4,
+    img: "/assets/img/aa168.jpg",
+    link: "/shoulder-replacement",
+    blog_date: (
+      <>
+        <span >Orthopedic Surgery</span>
+      </>
+    ),
+    blog_title: (
+      <>
+        Shoulder Replacement
+      </>
+    ),
+    blog_category: "Shoulder Replacement",
+    blog_des: (
+      <>
+        Shoulder replacement surgery is a procedure used to relieve pain...
+      </>
+    ),
+  },
+  {
+    id: 5,
     img: "/assets/img/aa4.jpg",
     link: "/hip-arthroscopy",
     blog_date: (
@@ -93,7 +114,70 @@ Hip replacement surgery, also known as hip arthroplasty, involves replacing a da
     ),
   },
   {
-    id: 5,
+    id: 6,
+    img: "/assets/img/aa169.jpg",
+    link: "/shoulder-arthroscopy",
+    blog_date: (
+      <>
+        <span >Orthopedic Surgery</span>
+      </>
+    ),
+    blog_title: (
+      <>
+        Shoulder Arthroscopy
+      </>
+    ),
+    blog_category: "Shoulder Arthroscopy",
+    blog_des: (
+      <>
+        Shoulder arthroscopy is a minimally invasive surgical procedure used to diagnose and treat ...
+      </>
+    ),
+  },
+  {
+    id: 7,
+    img: "/assets/img/aa170.jpg",
+    link: "/ankle-surgery",
+    blog_date: (
+      <>
+        <span >Orthopedic Surgery</span>
+      </>
+    ),
+    blog_title: (
+      <>
+        Ankle Surgery
+      </>
+    ),
+    blog_category: "Ankle Surgery",
+    blog_des: (
+      <>
+        Ankle surgery can address various conditions affecting the ankle joint, sucjuries, arthritis...
+      </>
+    ),
+  },
+  {
+    id: 8,
+    img: "/assets/img/aa171.jpg",
+    link: "/elbow-surgery",
+    blog_date: (
+      <>
+        <span >Orthopedic Surgery</span>
+      </>
+    ),
+    blog_title: (
+      <>
+        Elbow Surgery
+      </>
+    ),
+    blog_category: "Elbow Surgery",
+    blog_des: (
+      <>
+        Elbow surgery can address various conditions affecting the elbow joint, such as inju...
+      </>
+    ),
+  },
+  {
+    id: 9,
     img: "/assets/img/aa31.avif",
     link: "/bone-fracture-treatment",
     blog_date: (
@@ -114,7 +198,7 @@ Hip replacement surgery, also known as hip arthroplasty, involves replacing a da
     ),
   },
   {
-    id: 6,
+    id: 10,
     img: "/assets/img/aa32.jpg",
     link: "/plaster-application-fractures",
     blog_date: (
@@ -135,7 +219,7 @@ Hip replacement surgery, also known as hip arthroplasty, involves replacing a da
     ),
   },
   {
-    id: 7,
+    id: 11,
     img: "/assets/img/aa33.avif",
     link: "/orthopedic-treatments",
     blog_date: (
@@ -157,7 +241,7 @@ Unicondylar knee replacement (UKR), also known as unico...
     ),
   },
   {
-    id: 8,
+    id: 12,
     img: "/assets/img/aa34.avif",
     link: "/tendo-achilles-tendinitis",
     blog_date: (
@@ -242,7 +326,7 @@ const Service = () => {
                       <a href="#">
                         <img src={item.img} alt="blog-item" />
                       </a>
-                      <span className="tp-blog__date text-center">
+                      <span style={{backgroundColor:"rgba(0, 0, 0, 0.362)",padding:"1px 8px",color:"white"}} className="tp-blog__date text-center">
                         <Link href={item.link}>{item.blog_date}</Link>
                       </span> 
                       {/* <div className="tp-blog__date text-center">

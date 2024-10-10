@@ -56,7 +56,7 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
   return (
     <>
       <section
-        className="about-area grey-bg pt-90 tp-box-space pb-90 ml-30 mr-30"
+        className="about-area grey-bg pt-90 tp-box-space pb-40 ml-30 mr-30"
         style={{
           backgroundImage: `url(${about_bg})`,
         }}
@@ -105,8 +105,8 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
                 </div>
               </div>
             </div>
-            <div className="row mb-0 mt-50">
-            <div className="col-lg-12">
+            <div className="row mb-0 mt-0">
+            {/* <div className="col-lg-12">
               <div style={{padding:"20px 30px"}} className="search-form">
                 <form action="#">
                   <input style={{padding:"25px"}} type="text" placeholder="Reach out, we’re here to help!" />
@@ -116,7 +116,7 @@ Comprehensive Orthopedic and Neurological Care at Sri Durga Clinic: Your Pathway
                   </button>
                 </form>
               </div>
-            </div>
+            </div> */}
           </div>
           </div>
         </div>
