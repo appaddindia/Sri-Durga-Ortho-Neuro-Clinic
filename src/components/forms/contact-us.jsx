@@ -34,7 +34,7 @@ const ContactUs = () => {
                 <input
                   name="website"
                   type="text"
-                  placeholder="Enter your website"
+                  placeholder="Enter department name"
                 />
               </div>
             </div>

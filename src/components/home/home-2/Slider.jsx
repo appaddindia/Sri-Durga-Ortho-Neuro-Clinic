@@ -5,15 +5,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const banner = [
   {
     img1: "/assets/img/aa172.jpg",
-    // img2: "/assets/img/banner1.jpg",
+    img2: "/assets/img/banner1.jpg",
   },
   {
     img1: "/assets/img/aa173.jpg",
-    // img2: "/assets/img/banner1.jpg",
+    img2: "/assets/img/banner2.jpg",
   },
   {
     img1: "/assets/img/aa174.jpg",
-    // img2: "/assets/img/banner1.jpg",
+    img2: "/assets/img/banner3.jpg",
   },
   
   
@@ -72,18 +72,22 @@ function Slider() {
         {banner.map((elem, i) => (
           <SwiperSlide key={i}>
             <div style={{ width: "100%" }}>
+              <div  className="d-lg-block d-none">
               <img
                 className="topperscreen"
                 style={{ width: "100%" }}
                 src={elem.img1}
                 alt=""
               />
+              </div>
+              <div  className="d-lg-none">
               <img
-                className="lowerscreen"
+                className=""
                 style={{ width: "100%" }}
                 src={elem.img2}
                 alt=""
               />
+              </div>
             </div>
           </SwiperSlide>
         ))}

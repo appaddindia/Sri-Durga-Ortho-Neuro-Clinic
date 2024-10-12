@@ -18,7 +18,7 @@ const PostBoxDetails = () => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-12">
-              <div className="postbox__wrapper pr-20">
+              <div className="postbox__wrapper pr-0">
                 <article className="postbox__item format-image mb-50 transition-3">
                   <div className="postbox__thumb w-img mb-30">
                     <Link href="/blog-details">

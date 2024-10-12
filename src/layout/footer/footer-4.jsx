@@ -142,8 +142,8 @@ const FooterFour = ({ style_2 = false }) => {
                     </span>
                     <div className="tp-footer-widget__links mb-120">
                       <ul>
-                        <li>1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
-                        </li>
+                        <li><a href="https://www.google.com/maps?ll=13.021473,77.628801&z=14&t=m&hl=kn&gl=IN&mapclient=embed&cid=14283709170592320519">1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
+                        </a> </li>
                         {/* <li>
                           <Link href="tel:95382 98050">
                           95382 98050
