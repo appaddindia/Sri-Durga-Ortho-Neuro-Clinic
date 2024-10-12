@@ -175,7 +175,7 @@ const TeamDetailsAreaSec = () => {
                     Education: <span style={{marginLeft:"10px"}}>DM - Neurology, MD - General Medicine, MBBS</span>
                     </li>
                     <li style={{display:"flex"}}>
-                      Experience: <span style={{marginLeft:"10px"}}>5 Years</span>
+                      Experience: <span style={{marginLeft:"10px"}}>13 Years</span>
                     </li>
                     <li style={{display:"flex"}}>
                       E-mail:{" "}
@@ -213,11 +213,10 @@ const TeamDetailsAreaSec = () => {
                 <h4 className="tp-team-dtls-text__title mb-30">
                 Expert Neurologist Specialist
                 </h4>
+                <p style={{color:"black",marginBottom:"15px"}}>
+                Dr. Surbhi Chaturvedi is a certified Neurologist. Following her graduation, she completed her MD in Medicine and subsequently earned her DM in Neurology, finishing at the top of her class and receiving a Gold Medal. She possesses strong leadership abilities and a deep understanding of relevant technologies in her field.</p>
                 <p style={{color:"black"}}>
-                Dr. Surbhi Chaturvedi is a highly regarded Consultant Neurologist with over five years of dedicated experience in the field. She earned her MD in Medicine in 2016 and completed her DM in Neurology in 2019, graduating as the topper of her class and receiving a prestigious Gold medal. Dr. Chaturvedi honed her skills during her training at the renowned National Institute of Mental Health and Neurosciences (NIMHANS) in India and further enhanced her expertise through a prestigious Stroke fellowship in Canada. As a Fellow of the Canadian Stroke Consortium, she has developed a strong focus on stroke management, among other neurological disorders.
-                </p>
-                <p style={{color:"black"}}>
-                Dr. Chaturvedis clinical expertise encompasses a wide range of conditions, including migraines, Parkinsons disease, epilepsy, and more. She excels in performing advanced procedures such as digital EEG and electromyography (EMG), which are essential for accurate diagnosis and treatment planning. In addition to her clinical work, she has authored numerous peer-reviewed publications and has established herself as a thought leader in the field by serving as a keynote speaker at international conferences. Dr. Chaturvedi’s commitment to advancing neurological care and her focus on patient outcomes make her an invaluable asset to her patients and the medical community.
+                Dr. Surbhi Chaturvedi is skilled in managing various neurological emergencies, including status epilepticus, acute strokes within the treatment window, myasthenic crisis, Guillain-Barré syndrome, and neurological infections. She has experience running telemedicine services and a stroke unit and is involved in neurointerventions. Her primary interests lie in stroke, followed by epilepsy and pediatric neurology. She is proficient in numerous neurological procedures, such as digital and video EEG, BERA, NCV, EMG, VEP, and tracheostomy. Additionally, Dr. Surbhi has contributed to many national and international peer-reviewed publications and has served as a keynote speaker at international conferences.
                 </p>
               </div>
             </div>

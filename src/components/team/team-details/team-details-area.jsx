@@ -175,7 +175,7 @@ const TeamDetailsArea = () => {
                     Education: <span style={{marginLeft:"10px"}}>MBBS (BMCRI), MS Orthopaedic (PGIMER), Senior Registrar (AIIMS New Delhi), Fellowship in Advanced Arthoplasty (SICOT), Fellowship in Shoulder & Knee Arthoscopy, (Royal College of Surgeons England)t</span>
                     </li>
                     <li style={{display:"flex"}}>
-                      Experience: <span style={{marginLeft:"10px"}}>12 Years</span>
+                      Experience: <span style={{marginLeft:"10px"}}>13 Years</span>
                     </li>
                     <li style={{display:"flex"}}>
                       E-mail:{" "}
@@ -210,15 +210,32 @@ const TeamDetailsArea = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="tp-team-dtls-text mt-40">
-                <h4 className="tp-team-dtls-text__title mb-30">
-                Compassionate Orthopedic Surgeon
+                <h4 className="tp-team-dtls-text__title mb-15">
+                Overview
                 </h4>
                 <p  style={{color:"black"}}>
-                Dr. Shashikanth Vokkaleri is a highly skilled Joint Replacement and Arthroscopic Surgeon with over 12 years of experience in the field. His expertise lies in preserving patients natural ligaments and joints, which plays a crucial role in enhancing their overall quality of life. By focusing on minimally invasive techniques, Dr. Vokkaleri ensures that patients experience less pain and a quicker recovery, allowing them to return to their daily activities sooner. His compassionate approach prioritizes patient comfort and satisfaction, making him a trusted choice for those seeking orthopedic care.
-                </p>
-                <p style={{color:"black"}}>
-                Committed to providing affordable yet high-quality treatments, Dr. Vokkaleri incorporates advanced science and technology into his practice. He stays updated with the latest innovations in orthopedic surgery, allowing him to offer tailored solutions that meet each patients unique needs. His dedication to patient education and involvement in the treatment process fosters a collaborative environment where individuals feel empowered to make informed decisions about their health. Through his exceptional skills and commitment to excellence, Dr. Vokkaleri aims to deliver optimal outcomes for all his patients.
-                </p>
+                Dr. Shashikanth Vokkaleri – MBBS (BMCRI), FRCS (England), MS Ortho (PGI Chandigarh), Senior Resident (AIIMS – New Delhi) – is a Bengaluru-based Orthopaedic Surgeon with 12+ years experience. He specializes in Trauma, Arthroscopy (Knee, Hip, Shoulder), Knee Pain, Knee Injury, Hip Pain, Hip Injury, Shoulder Pain, Back Pain, ACL/PCL Injury/Reconstruction, Fracture, Sports Injury and Joint Replacement. 
+
+
+               </p>
+               <div style={{ backgroundColor: '#f8f8f8', padding: '15px', borderRadius: '5px', marginTop: '20px',marginBottom:"15px" }}>
+                <ul>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>1) </span> Dr Shashikanth worked at one of the premier institutes of India AIIMS, New Delhi as Senior Registrar where he garnered more knowledge and experience of handling complex trauma and joint replacement surgeries.</li>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>2) </span> He worked as Assistant Professor at M.S. Ramaiah Medical College, Bengaluru from 2015 to 2016.</li>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>3) </span>He worked as a Joint Replacement Surgeon at Sparsh Hospital, Infantry Road, Bengaluru from 2016 to 2018.</li>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>4) </span>He worked as Senior Clinical Fellow in Arthroscopy and Sports Medicine at Chesterfield Royal Hospital, NHS, England from 2018 to 2021.</li>
+
+                </ul>
+            </div>
+            <div style={{ backgroundColor: '#f8f8f8', padding: '15px', borderRadius: '5px', marginTop: '20px',marginBottom:"35px", }}>
+                <ul>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>1) </span>Dr Shashikanth specialises in arthroscopic and joint replacement surgeries of shoulder, hip, and knee.</li>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>2) </span>He routinely performs surgeries such as Shoulder Bankart Repair, Rotator Cuff Repair, Shoulder Replacement, Subacromial Decompression, Patellar Stabilisation, Cartilage Regeneration, Knee Meniscal Repair, ACL Repair, MCL & PLC Repair, Partial & Total Knee and Hip Replacement.</li>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>3) </span>He uses stem cell therapy, platelet rich plasma (PRP) in treating patients, and tries to treat most of the cases without surgery</li>
+                    <li style={{color:"black",marginBottom:"6px",display:"flex"}}><span style={{marginRight:"8px"}}>4) </span>His treatment procedures also include bone marrow aspirate concentrate (BMAC), computer navigation and robotic surgery to benefit the patient.</li>
+
+                </ul>
+            </div>
               </div>
             </div>
           </div>

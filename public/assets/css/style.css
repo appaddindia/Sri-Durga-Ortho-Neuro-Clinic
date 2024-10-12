@@ -8289,9 +8289,14 @@ p.checkout-coupon input[type=text]:focus {
 .breadcrumb__area {
   padding: 130px 0;
 }
-.justify-center{
-  display: flex;
-  justify-content: center;
+.small{
+  display: none;
 }
+@media only screen and (max-width: 991px){
+.small{
+display: block;
+}
+}
+
 
 /*# sourceMappingURL=style.css.map */

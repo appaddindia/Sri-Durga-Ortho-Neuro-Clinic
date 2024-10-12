@@ -18,10 +18,10 @@ const hero_slider = [
     title: "Neurologist",
     section_title: "Dr. Surbhi Chaturvedi",
     section_sub_title:
-      "DM - Neurology, MD - General Medicine, MBBS",
+      "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
     section_des: (
       <>
-       Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 5 years of experience. She completed her MD in Medicine in 2016 and DM in Neurology in 2019, graduating as the topper and earning a Gold medal. After training at NIMHANS, she pursued a prestigious Stroke fellowship in Canada, becoming a Fellow of the Canadian Stroke Consortium. Her expertise includes stroke management, migraines, Parkinson’s disease, epilepsy, and other neurological disorders. Dr. Chaturvedi excels in advanced procedures such as digital EEG and EMG. She has authored numerous peer-reviewed publications and served as a keynote speaker at international conferences.
+      Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 13 years of experience, specializing in stroke management, migraines, Parkinson’s disease, epilepsy, and other neurological disorders. A gold medalist in her studies, she has advanced expertise in digital EEG and EMG, and is a published author and international conference speaker.
       </>
     ),
     know_more:"/",
@@ -32,7 +32,7 @@ const hero_slider = [
     id:2,
     left_img: "assets/img/about/about-bg-01.png",
     link: "/dr-shashikanth-vokkaleri-orthopedic-excellence",
-    experience_count: 12,
+    experience_count: 13,
     experience_count_text: (
       <>
         Years of <br />
@@ -45,7 +45,7 @@ const hero_slider = [
       " MBBS (BMCRI), MS Orthopaedic (PGIMER), Senior Registrar (AIIMS New Delhi), Fellowship in Advanced Arthoplasty (SICOT), Fellowship in Shoulder & Knee Arthoscopy, (Royal College of Surgeons England)",
     section_des: (
       <>
-        Dr. Shashikanth Vokkaleri is a Joint Replacement and Arthroscopic Surgeon with 12 years of experience. He is committed to preserving patients natural ligaments and joints to enhance their quality of life. He aims to provide affordable, high-quality, and suitable treatments by utilizing advanced science and technology in his practice.
+        Dr. Shashikanth Vokkaleri is a Joint Replacement and Arthroscopic Surgeon with 13 years of experience. He is committed to preserving patients natural ligaments and joints to enhance their quality of life. He aims to provide affordable, high-quality, and suitable treatments by utilizing advanced science and technology in his practice.
       </>
     ),
     know_more:"/",

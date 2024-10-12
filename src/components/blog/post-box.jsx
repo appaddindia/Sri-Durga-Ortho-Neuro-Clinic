@@ -71,7 +71,7 @@ const PostBox = ({data}) => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-12">
-              <div style={{position:"sticky",top:"150px"}} className="postbox pr-20 pb-50">
+              <div style={{position:"sticky",top:"150px"}} className="postbox pr-0 pb-50">
                 {data.map((article) => (
                   <article
                     key={article.id}
