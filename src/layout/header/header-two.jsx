@@ -101,25 +101,24 @@ const HeaderTwo = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="header-time">
-                    <span>
-                      <i className="fa-light fa-clock-ten"></i> Monday - Friday
-                      09:00 am - 05:00 Pm
+                    <span style={{marginLeft:"0px"}}>
+                      <i className="fa-light fa-clock-ten"></i> Ortho: 7-8:30AM; Neuro: 7:30-8:30AM, 7-8:30PM
                     </span>
-                    <span>Address: Rachenahalli, Bengaluru, Karnataka</span>
+                    <span>Address: Rachenahalli, Bengaluru</span>
                   </div>
                 </div>
               </div>
             </div>
             <div className="header-menu-bottom">
               <div className="row">
-                <div className="col-lg-7">
+                <div className="col-lg-8">
                   <div className="main-menu main-menu-second">
                     <nav id="mobile-menu">
                       <NavMenu />
                     </nav>
                   </div>
                 </div>
-                <div className="col-lg-5">
+                <div className="col-lg-4">
                   <div className="header-cart-order d-flex align-items-center justify-content-end">
                     <div className="header-cart-list  d-flex align-items-center justify-content-end mr-0">
                       <button

@@ -14,8 +14,7 @@ const contact_info = {
   phone_2: "+1255 - 568 - 6523",
   open: (
     <>
-      Monday - Friday <br />
-      09:00 AM - 05:00 PM
+      <b>Orthopedic</b>: Mon-Sat 7-8:30 AM. <br></br><b>Neurology</b>: Mon-Sat 7:30-8:30 AM,<br></br> 7-8:30 PM
     </>
   ),
 };
