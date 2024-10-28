@@ -102,7 +102,7 @@ const Gallery = () => {
                 <span className="tp-section__sub-title left-line right-line mb-25">
                   Work Gallery
                 </span>
-                <h3 className="tp-section__title mb-70">Bioxlab Gallery</h3>
+                <h3 className="tp-section__title mb-70">Sri Durga Ortho & Neuro Clinic Gallery</h3>
               </div>
             </div>
           </div>

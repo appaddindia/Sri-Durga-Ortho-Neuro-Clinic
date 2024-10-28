@@ -22,7 +22,7 @@ const Banner = () => {
             <div className="col-lg-6 col-md-5 col-12">
               <div className="tp-breadcrumb__link d-flex align-items-center">
                 <span>
-                  Bioxlab : <Link href="/blog-details"> Blog Details</Link>
+                  Sri Durga Ortho & Neuro Clinic : <Link href="/blog-details"> Blog Details</Link>
                 </span>
               </div>
             </div>

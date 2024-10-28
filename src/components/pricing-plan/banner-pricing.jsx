@@ -20,7 +20,7 @@ const BannerPricing = () => {
             <div className="col-xl-5 col-lg-12 col-md-12 col-12">
               <div className="tp-breadcrumb__link text-xl-end">
                 <span>
-                  Bioxlab : <Link href="/pricing-plan"> Pricing Plan</Link>
+                  Sri Durga Ortho & Neuro Clinic : <Link href="/pricing-plan"> Pricing Plan</Link>
                 </span>
               </div>
             </div>

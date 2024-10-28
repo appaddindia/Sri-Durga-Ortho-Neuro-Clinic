@@ -20,7 +20,7 @@ const ShopBanner = () => {
             <div className="col-xl-5 col-lg-12 col-md-12 col-12">
               <div className="tp-breadcrumb__link text-xl-end">
                 <span>
-                  Bioxlab : <Link href="/shop"> Shop</Link>
+                  Sri Durga Ortho & Neuro Clinic : <Link href="/shop"> Shop</Link>
                 </span>
               </div>
             </div>

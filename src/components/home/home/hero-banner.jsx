@@ -6,7 +6,7 @@ import VideoPopup from "@/modals/video-popup";
 
 // content
 const content = {
-  sub_title: "Welcoome to Bioxlab",
+  sub_title: "Welcoome to Sri Durga Ortho & Neuro Clinic",
   title: (
     <>
       passion for better <br />
