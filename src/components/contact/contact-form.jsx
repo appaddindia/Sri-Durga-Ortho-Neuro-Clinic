@@ -14,7 +14,14 @@ const contact_info = {
   phone_2: "+1255 - 568 - 6523",
   open: (
     <>
-      <b>Orthopedic</b>: Mon-Sat 7-8:30 AM. <br></br><b>Neurology</b>: Mon-Sat 7:30-8:30 AM,<br></br> 7-8:30 PM
+      <div class="consultation">
+        <h6>Orthopedic Consultation</h6>
+        <p style={{color:"black"}}><strong>Morning Hours:</strong> Monday to Saturday: 7:30 AM to 8:30 AM</p>
+    </div>
+    <div class="consultation">
+        <h6>Neurology Consultation</h6>
+        <p style={{color:"black"}}><strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30 PM to 8:30 PM</p>
+    </div>
     </>
   ),
 };

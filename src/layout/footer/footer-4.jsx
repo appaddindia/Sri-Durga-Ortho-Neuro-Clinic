@@ -140,7 +140,7 @@ const FooterFour = ({ style_2 = false }) => {
                     <span className="tp-footer-widget__title mb-15">
                       Contact Info
                     </span>
-                    <div className="tp-footer-widget__links mb-120">
+                    <div className="tp-footer-widget__links mb-20">
                       <ul>
                         <li><a href="https://www.google.com/maps?ll=13.021473,77.628801&z=14&t=m&hl=kn&gl=IN&mapclient=embed&cid=14283709170592320519">1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
                         </a> </li>
@@ -154,8 +154,14 @@ const FooterFour = ({ style_2 = false }) => {
                           sridurgaorthoneuroclinic@gmail.com
                           </Link>
                         </li> */}
-                        <li>Office Hours: 9AM - 5PM</li>
-                        <li>Sunday - Wekend Day</li>
+                        <li><div class="consultation mt-20">
+        <h6>Orthopedic Consultation</h6>
+        <p style={{color:"white"}}><strong>Morning Hours:</strong> Monday to Saturday: 7:30 AM to 8:30 AM</p>
+    </div>
+    <div class="consultation">
+        <h6>Neurology Consultation</h6>
+        <p style={{color:"white"}}><strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30 PM to 8:30 PM</p>
+    </div></li>
                       </ul>
                     </div>
                     <div className="tp-footer-widget__social fw-social">
