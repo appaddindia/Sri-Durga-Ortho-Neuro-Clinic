@@ -323,9 +323,9 @@ const Service = () => {
               // </div>
               <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 mb-25">
                     <div className="tp-blog__thumb p-relative fix">
-                      <a href="#">
+                      <Link href={item.link}>
                         <img src={item.img} alt="blog-item" />
-                      </a>
+                      </Link>
                       <span style={{backgroundColor:"rgba(0, 0, 0, 0.362)",padding:"1px 8px",color:"white"}} className="tp-blog__date text-center">
                         <Link href={item.link}>{item.blog_date}</Link>
                       </span> 

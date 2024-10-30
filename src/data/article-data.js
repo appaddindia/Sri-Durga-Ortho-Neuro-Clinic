@@ -11,7 +11,12 @@ const article_data = [
     subdes:"Primary knee replacement, also known as total knee arthroplasty, is a surgical procedure aimed at alleviating pain and restoring function in individuals suffering from severe knee conditions, primarily osteoarthritis. This procedure involves the removal of damaged cartilage and bone from the knee joint and replacing them with artificial components. Over the years, knee replacements have become increasingly common, providing significant relief to patients who have exhausted non-surgical treatment options.",
     des: (
       <>
-      <p  style={{color:"black"}}>Primary knee replacement, also known as total knee arthroplasty, is a surgical procedure aimed at alleviating pain and restoring function in individuals suffering from severe knee conditions, primarily osteoarthritis. This procedure involves the removal of damaged cartilage and bone from the knee joint and replacing them with artificial components. Over the years, knee replacements have become increasingly common, providing significant relief to patients who have exhausted non-surgical treatment options.</p> <p  style={{color:"black"}}>The primary indication for knee replacement surgery is advanced arthritis, where the cartilage that cushions the knee joint has deteriorated, leading to pain, stiffness, and loss of mobility. Patients often report chronic pain that limits daily activities, along with swelling and a decreased range of motion. Other conditions that may necessitate a knee replacement include post-traumatic arthritis resulting from injury and rheumatoid arthritis, an autoimmune disorder that affects the joint lining.</p> <p  style={{color:"black"}}>During the procedure, the surgeon makes an incision over the knee, exposes the joint, and removes the damaged bone and cartilage. This is followed by the careful placement of metal and plastic components that mimic the natural knee joint. Modern advancements in surgical techniques and prosthetic designs have significantly improved the outcomes of primary knee replacement surgeries, leading to shorter recovery times and higher patient satisfaction rates.</p> <p  style={{color:"black"}}>Postoperative care is crucial for successful recovery. Patients typically undergo physical therapy to regain strength and mobility in the knee. The rehabilitation process varies for each individual but generally involves a combination of exercises aimed at improving flexibility, strength, and overall function. Pain management strategies, including medications and physical therapy, play an essential role in the recovery process, helping patients achieve a better quality of life.</p> <p  style={{color:"black"}}>In summary, primary knee replacement is a highly effective surgical option for individuals suffering from debilitating knee conditions. By replacing the damaged joint with artificial components, this procedure can significantly reduce pain and improve mobility. With appropriate postoperative care and rehabilitation, most patients can return to their daily activities and enjoy a better quality of life following surgery.</p></>
+      <p  style={{color:"black"}}>Primary knee replacement, also known as total knee arthroplasty, is a surgical procedure aimed at alleviating pain and restoring function in individuals suffering from severe knee conditions, primarily osteoarthritis. This procedure involves the removal of damaged cartilage and bone from the knee joint and replacing them with artificial components. Over the years, knee replacements have become increasingly common, providing significant relief to patients who have exhausted non-surgical treatment options.</p>
+       <p  style={{color:"black"}}>The primary indication for knee replacement surgery is advanced arthritis, where the cartilage that cushions the knee joint has deteriorated, leading to pain, stiffness, and loss of mobility. Patients often report chronic pain that limits daily activities, along with swelling and a decreased range of motion. Other conditions that may necessitate a knee replacement include post-traumatic arthritis resulting from injury and rheumatoid arthritis, an autoimmune disorder that affects the joint lining.</p>
+        <p  style={{color:"black"}}>During the procedure, the surgeon makes an incision over the knee, exposes the joint, and removes the damaged bone and cartilage. This is followed by the careful placement of metal and plastic components that mimic the natural knee joint. Modern advancements in surgical techniques and prosthetic designs have significantly improved the outcomes of primary knee replacement surgeries, leading to shorter recovery times and higher patient satisfaction rates.</p>
+         <p  style={{color:"black"}}>Postoperative care is crucial for successful recovery. Patients typically undergo physical therapy to regain strength and mobility in the knee. The rehabilitation process varies for each individual but generally involves a combination of exercises aimed at improving flexibility, strength, and overall function. Pain management strategies, including medications and physical therapy, play an essential role in the recovery process, helping patients achieve a better quality of life.</p>
+          <p  style={{color:"black"}}>In summary, primary knee replacement is a highly effective surgical option for individuals suffering from debilitating knee conditions. By replacing the damaged joint with artificial components, this procedure can significantly reduce pain and improve mobility. With appropriate postoperative care and rehabilitation, most patients can return to their daily activities and enjoy a better quality of life following surgery.</p>
+      </>
     ),
   },
   {
@@ -150,7 +155,7 @@ const article_data = [
     id: 8,
     img: "/assets/img/aa49.jpg",
     banner: "/assets/img/aa50.jpg",
-    title: "Lateral Ligament Comple",
+    title: "Lateral Ligament Complex",
     main:"Orthopedic Surgery",
     submain:"Knee Arthroscopy",
     subdes:"Lateral ligament complex injuries refer to damage to the ligaments on the outer side of the knee, primarily involving the lateral collateral ligament (LCL) and the accompanying structures that support knee stability. These injuries often occur due to direct trauma, such as a blow to the inner side of the knee, or as a result of excessive stress from activities involving cutting, pivoting, or quick changes in direction, commonly seen in sports like soccer and basketball. Proper diagnosis and treatment are crucial to restoring function and preventing further complications.",
@@ -217,29 +222,7 @@ const article_data = [
       </>
     ),
   },
-  {
-    id: 11,
-    img: "/assets/img/aa53.jpg",
-    banner: "/assets/img/aa54.jpg",
-    title: "Chondral Defect",
-    main:"Orthopedic Surgery",
-    submain:"Hip Replacement",
-    subdes:"A chondral defect refers to damage or injury to the cartilage that covers the ends of bones in a joint, specifically the articular cartilage. This type of injury can occur due to traumatic events, such as falls or sports injuries, or can result from degenerative conditions like osteoarthritis. Chondral defects can lead to pain, swelling, and decreased mobility in the affected joint, significantly impacting an individuals quality of life and ability to participate in physical activities.",
-    link:"/chondral-defect",
-    des: (
-      <>
-      <p  style={{color:"black"}}>A chondral defect refers to damage or injury to the cartilage that covers the ends of bones in a joint, specifically the articular cartilage. This type of injury can occur due to traumatic events, such as falls or sports injuries, or can result from degenerative conditions like osteoarthritis. Chondral defects can lead to pain, swelling, and decreased mobility in the affected joint, significantly impacting an individuals quality of life and ability to participate in physical activities.</p>
-
-<p  style={{color:"black"}}>Diagnosis of a chondral defect typically involves a thorough evaluation by an orthopedic specialist, including a detailed medical history, physical examination, and imaging studies such as X-rays or MRIs. These diagnostic tools help assess the extent of the cartilage damage and any underlying bone issues. Understanding the severity and location of the defect is crucial for determining the appropriate treatment approach.</p>
-
-<p  style={{color:"black"}}>Treatment options for chondral defects vary depending on the size, location, and severity of the defect, as well as the patients age and activity level. Conservative management may include rest, physical therapy, anti-inflammatory medications, and joint injections to alleviate pain and swelling. In cases where the defect is more severe or does not respond to conservative treatment, surgical interventions may be necessary. Techniques such as microfracture, autologous chondrocyte implantation, or osteochondral grafting may be employed to repair or regenerate the damaged cartilage.</p>
-
-<p  style={{color:"black"}}>Post-operative rehabilitation is critical for recovery from surgical treatments of chondral defects. A structured physical therapy program is typically initiated to restore range of motion, strength, and function to the affected joint. The rehabilitation process can take several months, during which patients are advised to follow their therapists guidance closely to ensure optimal healing and prevent further injury.</p>
-
-<p  style={{color:"black"}}>Ultimately, timely and appropriate management of chondral defects can lead to significant improvements in joint function and pain relief. By addressing the underlying issues and following a comprehensive treatment plan, individuals can enhance their quality of life and return to their desired level of activity. Early intervention and adherence to rehabilitation protocols are key factors in achieving successful outcomes for those with chondral defects.</p>
-      </>
-    ),
-  },
+  
   {
     id: 12,
     img: "/assets/img/aa56.jpg",
@@ -1319,6 +1302,25 @@ const article_data = [
 <p  style={{color:"black"}}>Treatment for neuropathy varies based on the underlying cause and severity of symptoms. Management may include medications to relieve pain and discomfort, physical therapy to improve strength and mobility, and lifestyle modifications to address contributing factors such as diet and exercise. In some cases, treating the underlying condition, such as managing blood sugar levels in diabetes, can alleviate neuropathic symptoms.</p>
 
 <p  style={{color:"black"}}>Living with neuropathy can be challenging, but with proper management and support, many individuals can achieve significant improvements in their quality of life. Education about the condition, adherence to treatment plans, and regular follow-up with healthcare providers are essential for effectively managing symptoms and minimizing the impact of neuropathy on daily activities.</p>
+</>
+    ),
+  },
+  {
+    id: 11,
+    img: "/assets/img/aa175.avif",
+    banner: "/assets/img/aa176.avif",
+    title: "Primary Hip Replacement",
+    main:"Orthopedic Surgery",
+    submain:"Hip Replacement",
+    link:"primary-hip-replacement",
+    subdes:"Neuropathy, often referred to as peripheral neuropathy, is a condition resulting from damage to the peripheral nerves, which transmit signals between the central nervous system and the rest of the body. This damage can lead to a range of symptoms, including pain, numbness, tingling, and weakness, primarily in the hands and feet. Neuropathy can result from various causes, including diabetes, infections, autoimmune diseases, and exposure to toxins, making it a multifaceted condition that",
+    des: (
+      <>
+<p style={{color:"black"}}>Primary hip replacement is a surgical procedure designed to alleviate pain and improve function in individuals suffering from severe hip joint damage, often due to arthritis, fractures, or other degenerative conditions. During this surgery, the damaged hip joint is replaced with an artificial implant, typically made of metal, plastic, or ceramic materials. This procedure aims to restore mobility and enhance the quality of life for patients, allowing them to return to daily activities with significantly reduced discomfort.</p> 
+<p style={{color:"black"}}>The decision to undergo primary hip replacement usually arises after conservative treatments, such as physical therapy, medication, and lifestyle modifications, have failed to provide adequate relief. Patients often experience chronic pain, stiffness, and reduced range of motion, which can severely impact their ability to perform everyday tasks. By replacing the damaged joint, the surgery provides a durable solution that can last for many years, thereby improving overall joint function and patient satisfaction.</p> 
+<p style={{color:"black"}}>The surgical procedure typically involves making an incision on the side or back of the hip to access the hip joint. The surgeon carefully removes the damaged bone and cartilage, preparing the socket to receive the artificial components. The new hip joint is then securely anchored, allowing for proper alignment and stability. Depending on the specific case, various implant options are available, including cemented and uncemented designs, which offer different benefits based on the patient’s age, activity level, and bone quality.</p> 
+<p style={{color:"black"}}>Recovery from primary hip replacement surgery varies among individuals but generally includes a hospital stay of a few days followed by a rehabilitation program. Physical therapy plays a crucial role in the recovery process, helping patients regain strength and mobility while teaching them exercises to promote healing. Most patients can expect to resume normal activities within a few weeks to months, although high-impact activities may be discouraged to prolong the lifespan of the implant.</p>
+ <p style={{color:"black"}}>While primary hip replacement is a highly successful procedure, it is not without risks. Potential complications may include infection, blood clots, and dislocation of the new joint. However, advancements in surgical techniques and postoperative care have significantly reduced these risks. Overall, primary hip replacement offers a promising solution for individuals suffering from debilitating hip pain, allowing them to reclaim an active and fulfilling lifestyle.</p>
 </>
     ),
   },

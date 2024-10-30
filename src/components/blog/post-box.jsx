@@ -61,8 +61,8 @@ const PostBox = ({data}) => {
 
   useEffect(() => {
     setIsLoop(true);
-    setMain(data[0].main)
-    console.log("sdsc",data[0].main)
+    setMain(data[0]?.main)
+    console.log("sdsc",data[0]?.main)
   }, [data]);
 
   return (
@@ -145,9 +145,9 @@ const PostBox = ({data}) => {
                   <Link className="tp-btn" href="/contact">
                     Contact Us
                   </Link>
-                  <Link  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
+                  <a  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello">
                     Book Appointment
-                  </Link>
+                  </a>
                 </div>
                     </div>
                   </article>

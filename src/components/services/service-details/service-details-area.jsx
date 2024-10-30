@@ -56,9 +56,9 @@ const ServiceDetailsArea = () => {
                   <Link className="tp-btn" href="/dr-shashikanth-vokkaleri-orthopedic-excellence">
                     Know More 
                   </Link>
-                  <Link style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
+                  <a style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello">
                     Book Appointment
-                  </Link>
+                  </a>
                 </div>
                 {/* <div className="tp-srv-process__list">
                   <ul>
@@ -111,9 +111,9 @@ const ServiceDetailsArea = () => {
                   <Link className="tp-btn" href="/dr-surbhi-chaturvedi">
                     Know More 
                   </Link>
-                  <Link style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
+                  <a style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello">
                     Book Appointment
-                  </Link>
+                  </a>
                 </div>
                 {/* <div className="tp-srv-process__list">
                   <ul>

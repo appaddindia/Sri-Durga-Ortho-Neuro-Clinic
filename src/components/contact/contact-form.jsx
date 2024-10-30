@@ -22,6 +22,7 @@ const contact_info = {
         <h6>Neurology Consultation</h6>
         <p style={{color:"black"}}><strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30 PM to 8:30 PM</p>
     </div>
+    <p style={{color:"black"}}><b>Sunday :</b> As Per Prior appointment only .</p>
     </>
   ),
 };

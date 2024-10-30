@@ -120,7 +120,7 @@ const Specialists = () => {
               <div className="tp-choose-option">
                 <span>
                 Reach out with questions; our team is here to help :
-                  <Link href="/">
+                  <Link href="/contact">
                     Contact Us<i className="fa-solid fa-arrow-right"></i>
                   </Link>
                 </span>

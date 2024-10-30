@@ -5,8 +5,8 @@ const Banner = ({data}) => {
   const [title, setTitle]=useState("")
   const [img, setImg]=useState("")
   useEffect(()=>{
-    setTitle(data[0].title)
-    setImg(data[0].banner)
+    setTitle(data[0]?.title)
+    setImg(data[0]?.banner)
   },[data])
   return (
     <>

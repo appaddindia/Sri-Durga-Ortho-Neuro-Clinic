@@ -55,14 +55,14 @@ const Servicerow = ({data}) => {
               // </div>
               <div key={item.id} className="col-xl-3 col-lg-4 col-md-6 mb-25">
                     <div className="tp-blog__thumb p-relative fix">
-                      <a href="#">
+                      <Link href={item.link}>
                         
                         <div style={{width:"100%",aspectRatio:"3/2",backgroundImage: `url(${item.img})`,
           backgroundPosition:"center",
           backgroundSize:"cover"}}></div>
-                      </a>
+                      </Link>
                       <span className="tp-blog__date text-center">
-                        <Link href="/blog-details">{item.blog_date}</Link>
+                        <Link href={item.link}>{item.blog_date}</Link>
                       </span> 
                       {/* <div className="tp-blog__date text-center">
                         <h4>{item.blog_date}</h4>

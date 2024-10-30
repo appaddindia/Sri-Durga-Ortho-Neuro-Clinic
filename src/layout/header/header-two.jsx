@@ -204,9 +204,9 @@ const HeaderTwo = () => {
                         </div>
                       </div> */}
                     </div>
-                    <Link className="header-bottom-btn" href="/contact">
+                    <a href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello" className="header-bottom-btn" >
                       Book Appointment
-                    </Link>
+                    </a>
                   </div>
                 </div>
               </div>

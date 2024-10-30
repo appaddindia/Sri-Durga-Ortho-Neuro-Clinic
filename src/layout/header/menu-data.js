@@ -183,7 +183,7 @@ const menu_data = [
     link: "/blog",
     active: "",
     sub_menus: [
-      { link: "/blog", title: "Gallery" },
+      { link: "/gallery", title: "Gallery" },
       { link: "/blog-details", title: "Blog Details" },
     ],
   },

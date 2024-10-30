@@ -161,10 +161,11 @@ const FooterFour = ({ style_2 = false }) => {
     <div class="consultation">
         <h6>Neurology Consultation</h6>
         <p style={{color:"white"}}><strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30 PM to 8:30 PM</p>
-    </div></li>
+    </div>
+    <p style={{color:"white"}}><b>Sunday :</b> As Per Prior appointment only .</p></li>
                       </ul>
                     </div>
-                    <div className="tp-footer-widget__social fw-social">
+                    {/* <div className="tp-footer-widget__social fw-social">
                       <a href="#">
                         <i className="fa-brands fa-facebook-f"></i>
                       </a>
@@ -180,7 +181,7 @@ const FooterFour = ({ style_2 = false }) => {
                       <a href="#">
                         <i className="fa-brands fa-youtube"></i>
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
