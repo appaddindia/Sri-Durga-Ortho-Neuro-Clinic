@@ -1324,6 +1324,30 @@ const article_data = [
 </>
     ),
   },
+  {
+    id: 59,
+    img: "/assets/img/aa1.avif",
+    banner: "/assets/img/ss2.avif",
+    title: "Seizure disorder / Epilepsy",
+    main:"Neurology",
+    submain:"Categorize",
+    link:"/seizure-disorder-epilepsy",
+    subdes:"Seizure disorder, commonly known as epilepsy, is a neurological condition characterized by recurrent and unprovoked seizures. These seizures are caused by sudden, excessive electrical activity in the brain, disrupting normal neural communication. While seizures can vary in severity and form, they often result in involuntary movements, sensations, or altered consciousness. Epilepsy can affect people of all ages and can arise from various factors including genetics",
+    des: (
+      <>
+     <p style={{color:"black"}}>Seizure disorder, commonly known as epilepsy, is a neurological condition characterized by recurrent and unprovoked seizures. These seizures are caused by sudden, excessive electrical activity in the brain, disrupting normal neural communication. While seizures can vary in severity and form, they often result in involuntary movements, sensations, or altered consciousness. Epilepsy can affect people of all ages and can arise from various factors including genetics, brain injury, or underlying medical conditions.</p>
+
+<p style={{color:"black"}}>There are many types of seizures, broadly categorized into focal and generalized seizures. Focal seizures originate in one part of the brain and can result in partial or complex behaviors, while generalized seizures involve both hemispheres of the brain and include types like tonic-clonic, absence, and myoclonic seizures. The symptoms of a seizure depend on the type and the part of the brain affected, ranging from brief staring spells to intense muscle convulsions.</p>
+
+<p style={{color:"black"}}>The causes of epilepsy can be diverse. While some individuals may have a genetic predisposition to the disorder, others may develop it due to conditions such as traumatic brain injuries, infections like meningitis, stroke, or congenital brain abnormalities. In some cases, the cause remains idiopathic, meaning it is not identified despite extensive medical evaluation. Understanding the specific cause can be essential for targeted treatment and management.</p>
+
+<p style={{color:"black"}}>Diagnosis of epilepsy typically involves a detailed medical history, a thorough physical examination, and diagnostic tests such as electroencephalograms (EEG) and imaging studies like MRI or CT scans. These tools help doctors determine the type of seizures and identify any structural issues within the brain. Accurate diagnosis is crucial to formulating an effective treatment plan and minimizing the impact of the condition on a patient’s life.</p>
+
+<p style={{color:"black"}}>Treatment for epilepsy aims to control and reduce the frequency of seizures, improving the quality of life for those affected. The most common approach is medication, with anti-seizure drugs tailored to the type of seizures and patient-specific factors. For individuals who do not respond adequately to medication, alternative treatments such as surgery, vagus nerve stimulation, or dietary therapies like the ketogenic diet may be explored. Ongoing research continues to develop new treatment options and improve outcomes for those living with epilepsy.</p>
+
+     </>
+    ),
+  },
 ];
 
 export default article_data;

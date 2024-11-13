@@ -10,6 +10,7 @@ import RecentPost from "./recent-post";
 import Tags from "./tags";
 import CommentForm from "../forms/comment-form";
 import CategoryThree from "./CategoryThree";
+import CategoryFour from "./CategoryFour";
 import CategorySec from "./CategorySec";
 
 // postbox_article data
@@ -200,6 +201,11 @@ const PostBox = ({data}) => {
                   main=="Neurological Treatments" && 
                     <CategoryThree />
                   
+                }
+                
+                {
+                  main=="Neurology" && 
+                    <CategoryFour />
                 }
                 <CommentForm />
                 {/* <RecentPost /> */}

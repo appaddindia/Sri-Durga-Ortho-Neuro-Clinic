@@ -157,24 +157,109 @@ const menu_data = [
   {
     id: 5,
     mega_menu: false,
+    has_dropdown: true,
     title: "Neurology",
     link: "/neurological-treatments",
-    has_dropdown: true,
     active: "",
     sub_menus: [
-      { link: "/stroke", title: "Stroke" },
-      { link: "/epilepsy-and-seizures", title: "Epilepsy and Seizures" },
-      { link: "/headache", title: "Headache" },
-      { link: "/migraine", title: "Migraine" },
-      { link: "/spine-disorder", title: "Spine Disorder" },
-      { link: "/parkinsons-disease", title: "Parkinson’s Disease" },
-      { link: "/memory-disorder", title: "Memory Disorder" },
-      { link: "/neuromuscular-disorders", title: "Neuromuscular Disorders" },
-      { link: "/pediatric-neurology", title: "Pediatric Neurology" }, // Fixed typo
-      { link: "/sciatica-disorder", title: "Sciatica Disorder" },
-      { link: "/neuropathy", title: "Neuropathy" },
-    ],
-  },
+      {
+        link: "/categorize",
+        title: "Categorize",
+        has_dropdown: true,
+        sub_menus : [
+          {
+            link: "/stroke-categorize",
+            title: "Stroke",
+            has_dropdown: false,
+          },
+          {
+            link: "/seizure-disorder-epilepsy",
+            title: "Seizure disorder/Epilepsy",
+            has_dropdown: false,
+          },
+          {
+            link: "/parkinsons-disease",
+            title: "Parkinson's disease",
+            has_dropdown: false,
+          },
+          {
+            link: "/tremors-movement-disorders",
+            title: "Tremors and other movement disorder",
+            has_dropdown: false,
+          },
+          {
+            link: "/migraine-headaches",
+            title: "Migraine and other types of headache",
+            has_dropdown: false,
+          },
+          {
+            link: "/neuropathy-nerve-disorders",
+            title: "Neuropathy and other nerve disorder",
+            has_dropdown: false,
+          },
+          {
+            link: "/neuromuscular-junction-disorder",
+            title: "Neuromuscular junction disorder",
+            has_dropdown: false,
+          },
+          {
+            link: "/neuro-demyelination",
+            title: "Neuro demyelination",
+            has_dropdown: false,
+          },
+          {
+            link: "/neuroinfections",
+            title: "Neuroinfections",
+            has_dropdown: true,
+            sub_menus: [
+              { link: "/spinal-cord-disorder", title: "Spinal cord disorder" }, 
+              { link: "/sleep-disorder", title: "Sleep disorder" }, 
+              { link: "/autonomic-function-disorder", title: "Autonomic function disorder" }, 
+              { link: "/alzheimers-dementia", title: "Alzheimer's and other dementia" }, 
+              { link: "/pediatric-neurology", title: "Pediatric Neurology" }, 
+              { link: "/vertigo-dizziness", title: "Vertigo/Dizziness" }
+            ]
+          }
+        ]
+      },
+      {
+        link: "/procedures",
+        title: "Procedures",
+        has_dropdown: true,
+        sub_menus: [
+          { link: "/eeg", title: "EEG" },
+          { link: "/ncs-face-limbs", title: "⁠NCS of face and limbs" },
+          { link: "/blink-reflex", title: "Blink reflex" },
+          { link: "/h-reflex", title: "H reflex" },
+          { link: "/visual-evoked-potential", title: "Visual evoked potential" },
+          { link: "/repetitive-nerve-stimulation", title: "⁠Repetitive Nerve stimulation" },
+          { link: "/baer", title: "⁠BAER" },
+          { link: "/emg", title: "⁠EMG" }
+        ]
+      }
+    ]
+},
+  // {
+  //   id: 5,
+  //   mega_menu: false,
+  //   title: "Neurology",
+  //   link: "/neurological-treatments",
+  //   has_dropdown: true,
+  //   active: "",
+  //   sub_menus: [
+  //     { link: "/stroke", title: "Stroke" },
+  //     { link: "/epilepsy-and-seizures", title: "Epilepsy and Seizures" },
+  //     { link: "/headache", title: "Headache" },
+  //     { link: "/migraine", title: "Migraine" },
+  //     { link: "/spine-disorder", title: "Spine Disorder" },
+  //     { link: "/parkinsons-disease", title: "Parkinson’s Disease" },
+  //     { link: "/memory-disorder", title: "Memory Disorder" },
+  //     { link: "/neuromuscular-disorders", title: "Neuromuscular Disorders" },
+  //     { link: "/pediatric-neurology", title: "Pediatric Neurology" }, // Fixed typo
+  //     { link: "/sciatica-disorder", title: "Sciatica Disorder" },
+  //     { link: "/neuropathy", title: "Neuropathy" },
+  //   ],
+  // },
   {
     id: 6,
     mega_menu: false,
