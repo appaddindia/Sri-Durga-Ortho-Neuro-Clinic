@@ -12,6 +12,8 @@ import CommentForm from "../forms/comment-form";
 import CategoryThree from "./CategoryThree";
 import CategoryFour from "./CategoryFour";
 import CategorySec from "./CategorySec";
+import CategoryFive from "./CategoryFive";
+import CategorySix from "./CategorySix";
 
 // postbox_article data
 const postbox_article = {
@@ -206,6 +208,15 @@ const PostBox = ({data}) => {
                 {
                   main=="Neurology" && 
                     <CategoryFour />
+                }
+
+                {
+                  main == "Neuroinfections" && 
+                    <CategoryFive />
+                }
+                {
+                  main == "Procedures" && 
+                    <CategorySix />
                 }
                 <CommentForm />
                 {/* <RecentPost /> */}

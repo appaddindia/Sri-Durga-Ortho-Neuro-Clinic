@@ -1,22 +1,21 @@
-import Blog from "@/components/blog";
 import SEO from "@/components/seo";
+import ServiceOne from "@/components/services/service/service-one";
 import article_data from "@/data/article-data";
 import Wrapper from "@/layout/wrapper";
 import React, { useEffect, useState } from "react";
 
 const Index = () => {
-  const [data, setData]=useState(article_data)
+    const [data, setData]=useState(article_data)
   useEffect(()=>{
     const update=article_data.filter((item)=>{
-      return item.title == "Parkinson's disease"
+      return item.submain == "Categorize"
     })
     setData(update)
   },[])
-  console.log(data)
   return (
     <Wrapper>
-      <SEO pageTitle="Sri Durga Ortho & Neuro Clinic" />
-      <Blog data={data}/>
+      <SEO pageTitle="Services" />
+      <ServiceOne data={data} bannername={"Categorize"} bannerimg={"/assets/img/ss3.webp"}/>
     </Wrapper>
   );
 };

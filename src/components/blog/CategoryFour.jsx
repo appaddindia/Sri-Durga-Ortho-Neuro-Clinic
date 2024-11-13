@@ -41,7 +41,7 @@ const category_data= [
     {
       category: "Neuro demyelination",
       blog_item: "08",
-      lonk: "/neuromuscular-disorders"
+      lonk: "/neuro-demyelination"
     },
     {
       category: "Neuroinfections",
@@ -54,7 +54,7 @@ const CategoryFour = () => {
   return (
     <>
       <div className="sidebar__widget mb-40">
-        <h3 className="sidebar__widget-title mb-25">Orthopedic Surgery</h3>
+        <h3 className="sidebar__widget-title mb-25">Categorize</h3>
         <div className="sidebar__widget-content">
           <ul>
             {category_data.map((item, i) => (
