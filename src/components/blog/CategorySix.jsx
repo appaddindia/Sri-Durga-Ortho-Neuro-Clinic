@@ -45,7 +45,7 @@ const category_data= [
     },
   ]
 
-const CategoryFive = () => {
+const CategorySix = () => {
   return (
     <>
       <div className="sidebar__widget mb-40">
@@ -67,4 +67,4 @@ const CategoryFive = () => {
   );
 };
 
-export default CategoryFive;
+export default CategorySix;
