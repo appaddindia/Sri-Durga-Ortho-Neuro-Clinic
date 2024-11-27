@@ -8,7 +8,7 @@ const Index = () => {
   const [data, setData]=useState(article_data)
   useEffect(()=>{
     const update=article_data.filter((item)=>{
-      return item.title == "Alzheimer's and other dementia"
+      return item.title == "Alzheimers and other dementia"
     })
     setData(update)
   },[])
