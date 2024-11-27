@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 User-agent: *
 Disallow:
 
 sitemap:https://www.sridurgaorthoneuroclinic.com/sitemap.xml
+=======
+User-agent: *
+Disallow:
+
+sitemap:https://www.sridurgaorthoneuroclinic.com/sitemap.xml
+>>>>>>> ab790fb14bbcbc38e5b872146ca7efe74da40646
