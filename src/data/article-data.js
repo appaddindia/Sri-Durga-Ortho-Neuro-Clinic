@@ -1171,7 +1171,7 @@ const article_data = [
     id: 53,
     img: "/assets/img/aa137.jpg",
     banner: "/assets/img/aa138.jpg",
-    title: "Parkinsons Disease-",
+    title: "Parkinson’s Disease-",
     main:"Neurological Treatments",
     submain:"",
     subdes:"Parkinsons disease is a progressive neurodegenerative disorder that primarily affects movement and coordination. It occurs when the brain cells responsible for producing dopamine, a neurotransmitter that helps control muscle movement, begin to deteriorate. This results in a range of symptoms, including tremors, stiffness, bradykinesia (slowness of movement), and postural instability. While Parkinsons disease most commonly affects older adults, it can occur in younger individuals as well.",
