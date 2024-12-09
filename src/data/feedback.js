@@ -1,57 +1,57 @@
 const feedback = [
   {
     id: 1,
-    img: "assets/img/aa15.jpg",
-    name: "Rajesh Kumar",
-    title: " 9 months ago ",
+    img: "assets/img/unnamed.png",
+    name: "Sanjana San",
+    title: " a month ago ",
     des: (
       <>
-        Dr. Surbhi is a phenomenal neurologist. Her diagnosis was spot on, and her treatment plan has changed my life for the better. Highly recommend her!
+        Dr. Surabhi is very professional! She listened attentively to my concerns and explained everything clearly. I felt well cared for throughout my visit. I highly recommend the clinic.
       </>
     ),
   },
   {
     id: 2,
-    img: "assets/img/aa16.jpg",
-    name: "Anjali Sharma",
-    title: "CEO of (FlaxStudio)",
+    img: "assets/img/tt1.png",
+    name: "Karpagavalli",
+    title: "a month ago",
     des: (
       <>
-       I was suffering from migraines for years, but Dr. Surbhis expertise in neurology made all the difference. She is compassionate and very knowledgeable.
+       I had very good experience in this clinic, the doctor was very knowledgeable and patient, I would highly recommend this clinic to everyone.  Dr. Surabhi Chathurvedi is the neurologist who treated me and gave me second life.  She respects all the patients and cares for their life.,
       </>
     ),
   },
   {
     id: 3,
-    img: "assets/img/aa18.jpg",
-    name: "Vikram Singh",
-    title: "3 months ago ",
+    img: "assets/img/tt2.png",
+    name: "Revathi Ravi",
+    title: "a month ago ",
     des: (
       <>
-        Dr. Surbhi provided exceptional care during my treatment for Parkinson’s disease. Her attention to detail and supportive approach made the process much easier.
+        I would highly recommend this clinic, especially Dr Surabi,.  She treated my sister for MS with utmost care. Dr Surabi is very efficient and compassionate. Can surely rely on her to be cured.
       </>
     ),
   },
   {
     id: 4,
-    img: "assets/img/aa17.jpg",
-    name: "Neha Gupta",
-    title: "1 months ago ",
+    img: "assets/img/tt3.png",
+    name: "Bharath Gowda",
+    title: "a month ago",
     des: (
       <>
-        Thanks to Dr. Surbhi, I am managing my epilepsy much better now. She takes the time to explain everything and truly listens to her patients.
+        Recently I consulted dr surabhi madam very nice doctor am very happy with her treatment
       </>
     ),
   },
   
   {
     id: 5,
-    img: "assets/img/aa19.jpg",
-    name: "Suresh Reddy",
-    title: "w weeks ago ",
+    img: "assets/img/tt4.png",
+    name: "malathi ms",
+    title: "a month ago ",
     des: (
       <>
-        I had a great experience with Dr. Surbhi. Her advanced procedures like digital EEG helped identify my issues quickly. A true professional!
+       Dr shashikanth is very kind and highly professional doctor  . Treated me for my knee pain without any surgery. He is very patient. I recommend him for any  patient with knee pain .
       </>
     ),
   },
