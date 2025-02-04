@@ -20,8 +20,8 @@ const HeaderTwo = () => {
           <div className="row align-items-center">
             <div className="col-md-4 col-10">
               <div className="tp-mob-logo">
-                <Link href="/">   
-                <img src="/assets/img/logo/logo.png" alt="logo" />    
+                <Link href="/">
+                  <img src="/assets/img/logo/logo.png" alt="logo" />
                 </Link>
               </div>
             </div>
@@ -69,7 +69,7 @@ const HeaderTwo = () => {
         >
           <div className="header-logo-box">
             <Link href="/">
-              <img src="/assets/img/logo/logo.png" alt="logo" />     
+              <img src="/assets/img/logo/logo.png" alt="logo" />
             </Link>
           </div>
           <div className="header-menu-box">
@@ -101,8 +101,9 @@ const HeaderTwo = () => {
                 </div>
                 <div className="col-lg-8">
                   <div className="header-time">
-                    <span style={{marginLeft:"0px"}}>
-                      <i className="fa-light fa-clock-ten"></i> Ortho: 7-8:30AM; Neuro: 7:30-8:30AM, 7-8:30PM
+                    <span style={{ marginLeft: "0px" }}>
+                      <i className="fa-light fa-clock-ten"></i> Ortho: 4-6 pm;
+                      Neuro: 7:30-8:30AM, 7-8:30PM
                     </span>
                     <span>Address: Rachenahalli, Bengaluru</span>
                   </div>
@@ -204,7 +205,10 @@ const HeaderTwo = () => {
                         </div>
                       </div> */}
                     </div>
-                    <a href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello" className="header-bottom-btn" >
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello"
+                      className="header-bottom-btn"
+                    >
                       Book Appointment
                     </a>
                   </div>

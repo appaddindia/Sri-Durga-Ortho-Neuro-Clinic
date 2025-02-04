@@ -2,12 +2,12 @@ import Link from "next/link";
 import React from "react";
 import ContactUs from "../forms/contact-us";
 
-
 // contact_info
 const contact_info = {
   address: (
     <>
-      1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
+      1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS
+      Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
     </>
   ),
   phone_1: "9980445660",
@@ -16,13 +16,20 @@ const contact_info = {
     <>
       <div class="consultation">
         <h6>Orthopedic Consultation</h6>
-        <p style={{color:"black"}}><strong>Morning Hours:</strong> Monday to Saturday: 7:30 AM to 8:30 AM</p>
-    </div>
-    <div class="consultation">
+        <p style={{ color: "black" }}>
+          <strong>Morning Hours:</strong> Monday to Saturday: 4 PM to 6 PM
+        </p>
+      </div>
+      <div class="consultation">
         <h6>Neurology Consultation</h6>
-        <p style={{color:"black"}}><strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30 PM to 8:30 PM</p>
-    </div>
-    <p style={{color:"black"}}><b>Sunday :</b> As Per Prior appointment only .</p>
+        <p style={{ color: "black" }}>
+          <strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30
+          PM to 8:30 PM
+        </p>
+      </div>
+      <p style={{ color: "black" }}>
+        <b>Sunday :</b> As Per Prior appointment only .
+      </p>
     </>
   ),
 };
@@ -47,9 +54,19 @@ const ContactForm = () => {
                     <img src="/assets/img/icon/contact-01.svg" alt="" />
                   </div>
                   <div className="tpcontact__address">
-                    <h4 style={{color:"#2a4825"}} className="tpcontact__title mb-15">Address line</h4>
+                    <h4
+                      style={{ color: "#2a4825" }}
+                      className="tpcontact__title mb-15"
+                    >
+                      Address line
+                    </h4>
                     <span>
-                      <a  style={{color:"black"}} href="https://www.google.com/maps/place/Sri+Durga+Ortho+%26+Neuro+Clinic/@13.0214727,77.628801,15z/data=!4m6!3m5!1s0x3bae1763978f975f:0xc639edcff4250c07!8m2!3d13.0214727!4d77.628801!16s%2Fg%2F11wj00t3w1?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D">{address}</a>
+                      <a
+                        style={{ color: "black" }}
+                        href="https://www.google.com/maps/place/Sri+Durga+Ortho+%26+Neuro+Clinic/@13.0214727,77.628801,15z/data=!4m6!3m5!1s0x3bae1763978f975f:0xc639edcff4250c07!8m2!3d13.0214727!4d77.628801!16s%2Fg%2F11wj00t3w1?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                      >
+                        {address}
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -63,9 +80,16 @@ const ContactForm = () => {
                     <img src="/assets/img/icon/contact-02.svg" alt="" />
                   </div>
                   <div className="tpcontact__address">
-                    <h4 style={{color:"#2a4825"}} className="tpcontact__title mb-15">Phone Number</h4>
+                    <h4
+                      style={{ color: "#2a4825" }}
+                      className="tpcontact__title mb-15"
+                    >
+                      Phone Number
+                    </h4>
                     <span>
-                      <a  style={{color:"black"}} href={`tel:${phone_1}`}>{phone_1}</a>
+                      <a style={{ color: "black" }} href={`tel:${phone_1}`}>
+                        {phone_1}
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -79,8 +103,13 @@ const ContactForm = () => {
                     <img src="/assets/img/icon/contact-03.svg" alt="" />
                   </div>
                   <div className="tpcontact__address">
-                    <h4 style={{color:"#2a4825"}} className="tpcontact__title mb-15">Opening Hours</h4>
-                    <span  style={{color:"black"}}>{open}</span>
+                    <h4
+                      style={{ color: "#2a4825" }}
+                      className="tpcontact__title mb-15"
+                    >
+                      Opening Hours
+                    </h4>
+                    <span style={{ color: "black" }}>{open}</span>
                   </div>
                 </div>
               </div>
