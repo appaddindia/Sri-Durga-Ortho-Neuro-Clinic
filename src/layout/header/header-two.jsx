@@ -206,7 +206,7 @@ const HeaderTwo = () => {
                       </div> */}
                     </div>
                     <a
-                      href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello"
+                      href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
                       className="header-bottom-btn"
                     >
                       Book Appointment

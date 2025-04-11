@@ -57,15 +57,15 @@ const setting = {
   },
 };
 
-const PostBox = ({data}) => {
-  const [main, setMain]=useState("")
+const PostBox = ({ data }) => {
+  const [main, setMain] = useState("");
   const [isLoop, setIsLoop] = useState(false);
   const [isVideoOpen, setIsVideoOpen] = useState(false);
 
   useEffect(() => {
     setIsLoop(true);
-    setMain(data[0]?.main)
-    console.log("sdsc",data[0]?.main)
+    setMain(data[0]?.main);
+    console.log("sdsc", data[0]?.main);
   }, [data]);
 
   return (
@@ -74,7 +74,10 @@ const PostBox = ({data}) => {
         <div className="container">
           <div className="row">
             <div className="col-xxl-8 col-xl-8 col-lg-7 col-md-12">
-              <div style={{position:"sticky",top:"150px"}} className="postbox pr-0 pb-50">
+              <div
+                style={{ position: "sticky", top: "150px" }}
+                className="postbox pr-0 pb-50"
+              >
                 {data.map((article) => (
                   <article
                     key={article.id}
@@ -137,21 +140,24 @@ const PostBox = ({data}) => {
                       ))} */}
 
                     <div className="postbox__content">
-                      
                       <h3 className="postbox__title mb-15">
-                        <Link  style={{color:"#2a4825"}} href="/">{article.title}</Link>
+                        <Link style={{ color: "#2a4825" }} href="/">
+                          {article.title}
+                        </Link>
                       </h3>
-                      <div className="postbox__text mb-25">
-                        {article.des}
-                      </div>
+                      <div className="postbox__text mb-25">{article.des}</div>
                       <div className="tp-about__btn">
-                  <Link className="tp-btn" href="/contact">
-                    Contact Us
-                  </Link>
-                  <a  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello">
-                    Book Appointment
-                  </a>
-                </div>
+                        <Link className="tp-btn" href="/contact">
+                          Contact Us
+                        </Link>
+                        <a
+                          style={{ backgroundColor: "#c61000" }}
+                          className="tp-btn-second ml-25"
+                          href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
+                        >
+                          Book Appointment
+                        </a>
+                      </div>
                     </div>
                   </article>
                 ))}
@@ -189,35 +195,14 @@ const PostBox = ({data}) => {
             <div className="col-xxl-4 col-xl-4 col-lg-5 col-md-12">
               <div className="sidebar__wrapper pl-25 pb-50">
                 {/* <BlogSearch /> */}
-                {
-                  main =="Orthopedic Surgery" && 
-                    <Category />
-                  
-                }
-                {
-                  main=="Orthopedic Treatments" && 
-                    <CategorySec />
-                  
-                }
-                {
-                  main=="Neurological Treatments" && 
-                    <CategoryThree />
-                  
-                }
-                
-                {
-                  main=="Neurology" && 
-                    <CategoryFour />
-                }
+                {main == "Orthopedic Surgery" && <Category />}
+                {main == "Orthopedic Treatments" && <CategorySec />}
+                {main == "Neurological Treatments" && <CategoryThree />}
 
-                {
-                  main == "Neuroinfections" && 
-                    <CategoryFive />
-                }
-                {
-                  main == "Procedures" && 
-                    <CategorySix />
-                }
+                {main == "Neurology" && <CategoryFour />}
+
+                {main == "Neuroinfections" && <CategoryFive />}
+                {main == "Procedures" && <CategorySix />}
                 <CommentForm />
                 {/* <RecentPost /> */}
                 {/* <Tags /> */}

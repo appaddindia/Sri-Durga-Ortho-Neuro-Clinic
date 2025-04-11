@@ -5,7 +5,7 @@ import { Navigation } from "swiper";
 
 const hero_slider = [
   {
-    id:1,
+    id: 1,
     left_img: "assets/img/about/about-bg-01.png",
     link: "/dr-surbhi-chaturvedi",
     experience_count: 12,
@@ -21,15 +21,19 @@ const hero_slider = [
       "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
     section_des: (
       <>
-      Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 13 years of experience, specializing in stroke management, migraines, Parkinson’s disease, epilepsy, and other neurological disorders. A gold medalist in her studies, she has advanced expertise in digital EEG and EMG, and is a published author and international conference speaker.
+        Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 13 years of
+        experience, specializing in stroke management, migraines, Parkinson’s
+        disease, epilepsy, and other neurological disorders. A gold medalist in
+        her studies, she has advanced expertise in digital EEG and EMG, and is a
+        published author and international conference speaker.
       </>
     ),
-    know_more:"/",
-      img_1: "/assets/img/aa14.jpg",
-      img_2: "../assets/img/aa164.png",
+    know_more: "/",
+    img_1: "/assets/img/aa14.jpg",
+    img_2: "../assets/img/aa164.png",
   },
   {
-    id:2,
+    id: 2,
     left_img: "assets/img/about/about-bg-01.png",
     link: "/dr-shashikanth-vokkaleri-orthopedic-excellence",
     experience_count: 13,
@@ -45,14 +49,17 @@ const hero_slider = [
       " MBBS (BMCRI), MS Orthopaedic (PGIMER), Senior Registrar (AIIMS New Delhi), Fellowship in Advanced Arthoplasty (SICOT), Fellowship in Shoulder & Knee Arthoscopy, (Royal College of Surgeons England)",
     section_des: (
       <>
-        Dr. Shashikanth Vokkaleri is a Joint Replacement and Arthroscopic Surgeon with 13 years of experience. He is committed to preserving patients natural ligaments and joints to enhance their quality of life. He aims to provide affordable, high-quality, and suitable treatments by utilizing advanced science and technology in his practice.
+        Dr. Shashikanth Vokkaleri is a Joint Replacement and Arthroscopic
+        Surgeon with 13 years of experience. He is committed to preserving
+        patients natural ligaments and joints to enhance their quality of life.
+        He aims to provide affordable, high-quality, and suitable treatments by
+        utilizing advanced science and technology in his practice.
       </>
     ),
-    know_more:"/",
-      img_1: "/assets/img/aa13.jpg",
-      img_2: "../assets/img/aa163.png",
+    know_more: "/",
+    img_1: "/assets/img/aa13.jpg",
+    img_2: "../assets/img/aa163.png",
   },
-  
 ];
 
 // social_links
@@ -80,7 +87,6 @@ const social_links = [
   },
 ];
 
-
 const setting = {
   // Optional parameters
   slidesPerView: 1,
@@ -95,8 +101,6 @@ const setting = {
   },
 };
 
-
-
 const HeroBanner = () => {
   const [isLoop, setIsLoop] = useState(false);
   useEffect(() => {
@@ -104,9 +108,12 @@ const HeroBanner = () => {
   }, []);
   return (
     <>
-      <section  style={{backgroundColor:"#f0fff0"}} className="slider-area  pt-90 pb-90 p-relative">
-        <div style={{backgroundColor:"#f0fff0"}}  className="slider-social">
-          <div style={{backgroundColor:"#f0fff0"}}  className="container">
+      <section
+        style={{ backgroundColor: "#f0fff0" }}
+        className="slider-area  pt-90 pb-90 p-relative"
+      >
+        <div style={{ backgroundColor: "#f0fff0" }} className="slider-social">
+          <div style={{ backgroundColor: "#f0fff0" }} className="container">
             <div className="row">
               {/* <div className="col-lg-6 col-md-10 d-none d-md-block">
                 <div className="slider-content__social">
@@ -161,22 +168,33 @@ const HeroBanner = () => {
                           </Link>
                         </div>
                       </div> */}
-                      <div style={{display:"flex",alignItems:"center"}}
-                className="tp-about__content pt-0 ml-60  wow fadeInRight"
-                data-wow-delay=".4s"
-              >
-                <div>
-                <div className="tp-section">
-                  <span className="tp-section__sub-title left-line mb-25">
-                    {item.title}
-                  </span>
-                  <h3 style={{color:"#c61000"}} className="tp-section__title tp-ab-sm-title mb-25">
-                    {item.section_title}
-                  </h3>
-                  <i style={{color:"black"}}>{item.section_sub_title}</i>
-                  <p style={{color:"black"}} className=" mr-20 mb-25">{item.section_des}</p>
-                </div>
-                {/* <div className="tp-about__info-list mb-55">
+                      <div
+                        style={{ display: "flex", alignItems: "center" }}
+                        className="tp-about__content pt-0 ml-60  wow fadeInRight"
+                        data-wow-delay=".4s"
+                      >
+                        <div>
+                          <div className="tp-section">
+                            <span className="tp-section__sub-title left-line mb-25">
+                              {item.title}
+                            </span>
+                            <h3
+                              style={{ color: "#c61000" }}
+                              className="tp-section__title tp-ab-sm-title mb-25"
+                            >
+                              {item.section_title}
+                            </h3>
+                            <i style={{ color: "black" }}>
+                              {item.section_sub_title}
+                            </i>
+                            <p
+                              style={{ color: "black" }}
+                              className=" mr-20 mb-25"
+                            >
+                              {item.section_des}
+                            </p>
+                          </div>
+                          {/* <div className="tp-about__info-list mb-55">
                   <ul>
                     {about_info_list.map((list, i) => (
                       <li key={i}>
@@ -185,20 +203,24 @@ const HeroBanner = () => {
                     ))}
                   </ul>
                 </div> */}
-                <div className="tp-about__btn">
-                  <Link className="tp-btn" href={item.link}>
-                    Know More 
-                  </Link>
-                  <a style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello">
-                    Book Appointment
-                  </a>
-                </div>
-                </div>
-              </div>
+                          <div className="tp-about__btn">
+                            <Link className="tp-btn" href={item.link}>
+                              Know More
+                            </Link>
+                            <a
+                              style={{ backgroundColor: "#c61000" }}
+                              className="tp-btn-second ml-25"
+                              href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
+                            >
+                              Book Appointment
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                     <div className="col-lg-6 col-md-6 col-12 order-1 order-lg-2">
                       <div className="slider-content__bg">
-                      <img src={item.img_1} alt="about-thumb" />
+                        <img src={item.img_1} alt="about-thumb" />
                       </div>
                       <div className="slider-content__shape d-none d-md-block">
                         <img src={item.img_2} alt="slider-shape" />

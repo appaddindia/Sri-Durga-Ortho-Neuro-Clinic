@@ -30,7 +30,8 @@ const Cta_Area = () => {
     b_sub_title: "book Appointment",
     b_title: (
       <>
-        Reach out with inquiries<br/> our team is ready to help
+        Reach out with inquiries
+        <br /> our team is ready to help
       </>
     ),
     b_btn: "Book Now",
@@ -98,34 +99,43 @@ const Cta_Area = () => {
         </div>
       </section> */}
       <div className="cta-area pt-75 contantbox">
-          <div className="container">
-            <div className="row wow fadeInUp" data-wow-delay=".3s">
-              <div className="col-lg-12">
-                <div
-                  className="tp-cta-bg p-relative theme-light-bg pt-65 pb-70"
-                  style={{
-                    backgroundImage: `url(${booking_bg})`,
-                  }}
-                >
-                  <div className="cta-content ml-90">
-                    <div className="tp-section">
-                      <span className="tp-section__sub-title sub-title-white left-line-white mb-20">
-                        {b_sub_title}
-                      </span>
-                    </div>
-                    <h2 className="cta-title mb-30">{b_title}</h2>
-                    <div className="cta-btn">
-                      <a href="https://api.whatsapp.com/send/?phone=9980445660&text=Hello"  className="tp-btn-second">{b_btn}</a>
-                    </div>
-                    <div className="cta-shape d-none d-md-block">
-                      <img style={{width:"80px",marginTop:"-9px"}} src={b_img} alt="cta-logo-shape" />
-                    </div>
+        <div className="container">
+          <div className="row wow fadeInUp" data-wow-delay=".3s">
+            <div className="col-lg-12">
+              <div
+                className="tp-cta-bg p-relative theme-light-bg pt-65 pb-70"
+                style={{
+                  backgroundImage: `url(${booking_bg})`,
+                }}
+              >
+                <div className="cta-content ml-90">
+                  <div className="tp-section">
+                    <span className="tp-section__sub-title sub-title-white left-line-white mb-20">
+                      {b_sub_title}
+                    </span>
+                  </div>
+                  <h2 className="cta-title mb-30">{b_title}</h2>
+                  <div className="cta-btn">
+                    <a
+                      href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
+                      className="tp-btn-second"
+                    >
+                      {b_btn}
+                    </a>
+                  </div>
+                  <div className="cta-shape d-none d-md-block">
+                    <img
+                      style={{ width: "80px", marginTop: "-9px" }}
+                      src={b_img}
+                      alt="cta-logo-shape"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </>
   );
 };
