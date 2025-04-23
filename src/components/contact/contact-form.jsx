@@ -41,85 +41,85 @@ const ContactForm = () => {
       <section className="contact-area pt-130 pb-115">
         <div className="container">
           <div className="row">
-            <div
-              className="col-lg-4 col-md-5 col-12 wow fadeInLeft"
-              data-wow-delay=".4s"
-            >
-              <div
-                className="tpcontact mr-60 mb-60 wow fadeInUp"
-                data-wow-delay=".2s"
-              >
-                <div className="tpcontact__item text-center">
-                  <div className="tpcontact__icon mb-20">
-                    <img src="/assets/img/icon/contact-01.svg" alt="" />
-                  </div>
-                  <div className="tpcontact__address">
-                    <h4
-                      style={{ color: "#2a4825" }}
-                      className="tpcontact__title mb-15"
-                    >
-                      Address line
-                    </h4>
-                    <span>
-                      <a
-                        style={{ color: "black" }}
-                        href="https://www.google.com/maps/place/Sri+Durga+Ortho+%26+Neuro+Clinic/@13.0214727,77.628801,15z/data=!4m6!3m5!1s0x3bae1763978f975f:0xc639edcff4250c07!8m2!3d13.0214727!4d77.628801!16s%2Fg%2F11wj00t3w1?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
-                      >
-                        {address}
-                      </a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="tpcontact mr-60 mb-60 wow fadeInUp"
-                data-wow-delay=".4s"
-              >
-                <div className="tpcontact__item text-center">
-                  <div className="tpcontact__icon mb-20">
-                    <img src="/assets/img/icon/contact-02.svg" alt="" />
-                  </div>
-                  <div className="tpcontact__address">
-                    <h4
-                      style={{ color: "#2a4825" }}
-                      className="tpcontact__title mb-15"
-                    >
-                      Phone Number
-                    </h4>
-                    <span>
-                      <a style={{ color: "black" }} href={`tel:${phone_1}`}>
-                        {phone_1}
-                      </a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="tpcontact mr-60 mb-60 wow fadeInUp"
-                data-wow-delay=".6s"
-              >
-                <div className="tpcontact__item text-center">
-                  <div className="tpcontact__icon mb-20">
-                    <img src="/assets/img/icon/contact-03.svg" alt="" />
-                  </div>
-                  <div className="tpcontact__address">
-                    <h4
-                      style={{ color: "#2a4825" }}
-                      className="tpcontact__title mb-15"
-                    >
-                      Opening Hours
-                    </h4>
-                    <span style={{ color: "black" }}>{open}</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-8 col-md-7 col-12">
+            <div className="col-lg-12 col-md-7 col-12">
               <div className="contactform wow fadeInRight" data-wow-delay=".4s">
-                <h4 className="contactform__title mb-35">
+                {/* <h4 className="contactform__title mb-35">
                   Send us a Massage :
                 </h4>
-                <ContactUs />
+                <ContactUs /> */}
+                <div
+                  className="row col-lg-12 col-md-5 col-12 wow fadeInLeft"
+                  data-wow-delay=".4s"
+                >
+                  <div
+                    className="col-lg-4 tpcontact  mb-60 wow fadeInUp"
+                    data-wow-delay=".2s"
+                  >
+                    <div className="tpcontact__item text-center">
+                      <div className="tpcontact__icon mb-20">
+                        <img src="/assets/img/icon/contact-01.svg" alt="" />
+                      </div>
+                      <div className="tpcontact__address">
+                        <h4
+                          style={{ color: "#2a4825" }}
+                          className="tpcontact__title mb-15"
+                        >
+                          Address line
+                        </h4>
+                        <span>
+                          <a
+                            style={{ color: "black" }}
+                            href="https://www.google.com/maps/place/Sri+Durga+Ortho+%26+Neuro+Clinic/@13.0214727,77.628801,15z/data=!4m6!3m5!1s0x3bae1763978f975f:0xc639edcff4250c07!8m2!3d13.0214727!4d77.628801!16s%2Fg%2F11wj00t3w1?entry=ttu&g_ep=EgoyMDI0MTAwOS4wIKXMDSoASAFQAw%3D%3D"
+                          >
+                            {address}
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4 tpcontact  mb-60 wow fadeInUp"
+                    data-wow-delay=".4s"
+                  >
+                    <div className="tpcontact__item text-center">
+                      <div className="tpcontact__icon mb-20">
+                        <img src="/assets/img/icon/contact-02.svg" alt="" />
+                      </div>
+                      <div className="tpcontact__address">
+                        <h4
+                          style={{ color: "#2a4825" }}
+                          className="tpcontact__title mb-15"
+                        >
+                          Phone Number
+                        </h4>
+                        <span>
+                          <a style={{ color: "black" }} href={`tel:${phone_1}`}>
+                            {phone_1}
+                          </a>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="col-lg-4 tpcontact  mb-60 wow fadeInUp"
+                    data-wow-delay=".6s"
+                  >
+                    <div className="tpcontact__item text-center">
+                      <div className="tpcontact__icon mb-20">
+                        <img src="/assets/img/icon/contact-03.svg" alt="" />
+                      </div>
+                      <div className="tpcontact__address">
+                        <h4
+                          style={{ color: "#2a4825" }}
+                          className="tpcontact__title mb-15"
+                        >
+                          Opening Hours
+                        </h4>
+                        <span style={{ color: "black" }}>{open}</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
                 <div className="row">
                   <div className="col-lg-12">

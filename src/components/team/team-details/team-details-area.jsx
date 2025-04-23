@@ -243,7 +243,7 @@ const TeamDetailsArea = () => {
                   <Link className="tp-btn" href="/contact">
                     Contact Us
                   </Link>
-                  <Link style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
+                  <Link style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196">
                     Book Appointment
                   </Link>
                 </div>

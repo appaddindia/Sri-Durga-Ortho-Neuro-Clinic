@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-
-// team_info data 
+// team_info data
 const team_info = [
   {
     id: 1,
@@ -154,32 +153,38 @@ const TeamDetailsAreaSec = () => {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50">
-                <img
-                  src="/assets/img/aa14.jpg"
-                  alt="team-thumb"
-                />
+                <img src="/assets/img/aa14.jpg" alt="team-thumb" />
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="tp-team-dtls__content mt-50 mb-50">
                 <h4 className="tp-team-dtls__title mb-10">
-                  <Link  style={{color:"#c61000"}} href="/">Dr. Surbhi Chaturvedi</Link>
+                  <Link style={{ color: "#c61000" }} href="/">
+                    Dr. Surbhi Chaturvedi
+                  </Link>
                 </h4>
                 <span className="mb-35">Neurologist</span>
-                <p  style={{color:"black"}}>
-                Dr. Surbhi Chaturvedi, a Consultant Neurologist and gold medalist, specializes in stroke management, migraines, and advanced neurological procedures, with extensive experience and numerous publications in the field.
+                <p style={{ color: "black" }}>
+                  Dr. Surbhi Chaturvedi, a Consultant Neurologist and gold
+                  medalist, specializes in stroke management, migraines, and
+                  advanced neurological procedures, with extensive experience
+                  and numerous publications in the field.
                 </p>
                 <div className="tp-team-dtls__info">
                   <ul>
-                    <li style={{display:"flex"}}>
-                    Education: <span style={{marginLeft:"10px"}}>DM - Neurology, MD - General Medicine, MBBS</span>
+                    <li style={{ display: "flex" }}>
+                      Education:{" "}
+                      <span style={{ marginLeft: "10px" }}>
+                        DM - Neurology, MD - General Medicine, MBBS
+                      </span>
                     </li>
-                    <li style={{display:"flex"}}>
-                      Experience: <span style={{marginLeft:"10px"}}>13 Years</span>
+                    <li style={{ display: "flex" }}>
+                      Experience:{" "}
+                      <span style={{ marginLeft: "10px" }}>13 Years</span>
                     </li>
-                    <li style={{display:"flex"}}>
+                    <li style={{ display: "flex" }}>
                       E-mail:{" "}
-                      <span  style={{marginLeft:"10px"}}>
+                      <span style={{ marginLeft: "10px" }}>
                         <a href="mailto:sridurgaorthoneuroclinic@gmail.com">
                           {" "}
                           sridurgaorthoneuroclinic@gmail.com
@@ -211,24 +216,45 @@ const TeamDetailsAreaSec = () => {
             <div className="col-lg-12">
               <div className="tp-team-dtls-text mt-40">
                 <h4 className="tp-team-dtls-text__title mb-30">
-                Expert Neurologist Specialist
+                  Expert Neurologist Specialist
                 </h4>
-                <p style={{color:"black",marginBottom:"15px"}}>
-                Dr. Surbhi Chaturvedi is a certified Neurologist. Following her graduation, she completed her MD in Medicine and subsequently earned her DM in Neurology, finishing at the top of her class and receiving a Gold Medal. She possesses strong leadership abilities and a deep understanding of relevant technologies in her field.</p>
-                <p style={{color:"black"}}>
-                Dr. Surbhi Chaturvedi is skilled in managing various neurological emergencies, including status epilepticus, acute strokes within the treatment window, myasthenic crisis, Guillain-Barré syndrome, and neurological infections. She has experience running telemedicine services and a stroke unit and is involved in neurointerventions. Her primary interests lie in stroke, followed by epilepsy and pediatric neurology. She is proficient in numerous neurological procedures, such as digital and video EEG, BERA, NCV, EMG, VEP, and tracheostomy. Additionally, Dr. Surbhi has contributed to many national and international peer-reviewed publications and has served as a keynote speaker at international conferences.
+                <p style={{ color: "black", marginBottom: "15px" }}>
+                  Dr. Surbhi Chaturvedi is a certified Neurologist. Following
+                  her graduation, she completed her MD in Medicine and
+                  subsequently earned her DM in Neurology, finishing at the top
+                  of her class and receiving a Gold Medal. She possesses strong
+                  leadership abilities and a deep understanding of relevant
+                  technologies in her field.
+                </p>
+                <p style={{ color: "black" }}>
+                  Dr. Surbhi Chaturvedi is skilled in managing various
+                  neurological emergencies, including status epilepticus, acute
+                  strokes within the treatment window, myasthenic crisis,
+                  Guillain-Barré syndrome, and neurological infections. She has
+                  experience running telemedicine services and a stroke unit and
+                  is involved in neurointerventions. Her primary interests lie
+                  in stroke, followed by epilepsy and pediatric neurology. She
+                  is proficient in numerous neurological procedures, such as
+                  digital and video EEG, BERA, NCV, EMG, VEP, and tracheostomy.
+                  Additionally, Dr. Surbhi has contributed to many national and
+                  international peer-reviewed publications and has served as a
+                  keynote speaker at international conferences.
                 </p>
               </div>
             </div>
           </div>
           <div className="tp-about__btn">
-                  <Link className="tp-btn" href="/contact">
-                    Contact Us
-                  </Link>
-                  <Link  style={{backgroundColor:"#c61000"}} className="tp-btn-second ml-25" href="/contact">
-                    Book Appointment
-                  </Link>
-                </div>
+            <Link className="tp-btn" href="/contact">
+              Contact Us
+            </Link>
+            <Link
+              style={{ backgroundColor: "#c61000" }}
+              className="tp-btn-second ml-25"
+              href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
+            >
+              Book Appointment
+            </Link>
+          </div>
           {/* <div className="row">
             <div className="col-lg-4 col-md-6">
               <div
