@@ -1,16 +1,22 @@
-
-import Link from 'next/link';
-import React from 'react';
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 
 const FooterComponent = () => {
   return (
-    <div className='small d-lg-none' style={{ position: 'fixed', bottom: '0px', zIndex: 999, width: '100%' }}>
+    <div
+      className="small d-lg-none"
+      style={{ position: "fixed", bottom: "0px", zIndex: 999, width: "100%" }}
+    >
       <div className="row">
-        <div style={{ backgroundColor: '#614417', padding: '18px 3px' }} className="col-3">
-          <a style={{ width: '100%' }} href="tel:9980445660">
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div
+          style={{ backgroundColor: "#614417", padding: "18px 3px" }}
+          className="col-3"
+        >
+          <a style={{ width: "100%" }} href="tel:9980445660">
+            <div style={{ display: "flex", justifyContent: "center" }}>
               <svg
-                style={{ width: '20px', marginBottom: '8px' }}
+                style={{ width: "20px", marginBottom: "8px" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
               >
@@ -20,33 +26,56 @@ const FooterComponent = () => {
                 />
               </svg>
             </div>
-            <p style={{ textAlign: 'center', marginBottom: '0px', color: 'white', fontSize: '12px' }}>Call Us</p>
+            <p
+              style={{
+                textAlign: "center",
+                marginBottom: "0px",
+                color: "white",
+                fontSize: "12px",
+              }}
+            >
+              Call Us
+            </p>
           </a>
         </div>
 
-        <div style={{ backgroundColor: '#284329', padding: '18px 3px' }} className="col-3">
-          <a style={{ width: '100%' }} href="melto:sridurgaorthoneuroclinic@gmail.com">
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <svg
-  style={{ width: '20px', marginBottom: '8px' }}
-  xmlns="http://www.w3.org/2000/svg"
-  viewBox="0 0 24 24"
->
-  <path
-    fill="white"
-    d="M12 13.5l-8.5-5.5V20h17V8l-8.5 5.5zm0-2.1l7.5-5v-.5l-7.5 5-7.5-5v.5l7.5 5z"
-  />
-</svg>
+        <div
+          style={{ backgroundColor: "#284329", padding: "18px 3px" }}
+          className="col-3"
+        >
+          <a style={{ width: "100%" }} href="https://wa.link/txwsrd">
+            <div style={{ display: "flex", justifyContent: "center" }}>
+                <Image
+                  src="/assets/img/whatsapp.png"
+                  height={30}
+                  width={30}
+                  alt=""
+                />
             </div>
-            <p style={{ textAlign: 'center', marginBottom: '0px', color: 'white', fontSize: '12px' }}>Email</p>
+            <p
+              style={{
+                textAlign: "center",
+                marginBottom: "0px",
+                color: "white",
+                fontSize: "12px",
+              }}
+            >
+              WhatsApp
+            </p>
           </a>
         </div>
 
-        <div style={{ backgroundColor: '#614417', padding: '18px 3px' }} className="col-3">
-          <Link style={{ width: '100%' }} href="https://www.google.com/maps?ll=13.021473,77.628801&z=14&t=m&hl=kn&gl=IN&mapclient=embed&cid=14283709170592320519">
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div
+          style={{ backgroundColor: "#614417", padding: "18px 3px" }}
+          className="col-3"
+        >
+          <Link
+            style={{ width: "100%" }}
+            href="https://www.google.com/maps?ll=13.021473,77.628801&z=14&t=m&hl=kn&gl=IN&mapclient=embed&cid=14283709170592320519"
+          >
+            <div style={{ display: "flex", justifyContent: "center" }}>
               <svg
-                style={{ width: '17px', marginBottom: '8px' }}
+                style={{ width: "17px", marginBottom: "8px" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
               >
@@ -56,15 +85,27 @@ const FooterComponent = () => {
                 />
               </svg>
             </div>
-            <p style={{ textAlign: 'center', marginBottom: '0px', color: 'white', fontSize: '12px' }}>Location</p>
+            <p
+              style={{
+                textAlign: "center",
+                marginBottom: "0px",
+                color: "white",
+                fontSize: "12px",
+              }}
+            >
+              Location
+            </p>
           </Link>
         </div>
 
-        <div style={{ backgroundColor: '#284329', padding: '18px 3px' }} className="col-3">
-          <Link style={{ width: '100%' }} href="/contact">
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div
+          style={{ backgroundColor: "#284329", padding: "18px 3px" }}
+          className="col-3"
+        >
+          <Link style={{ width: "100%" }} href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196">
+            <div style={{ display: "flex", justifyContent: "center" }}>
               <svg
-                style={{ width: '20px', marginBottom: '8px' }}
+                style={{ width: "20px", marginBottom: "8px" }}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"
               >
@@ -74,7 +115,16 @@ const FooterComponent = () => {
                 />
               </svg>
             </div>
-            <p style={{ textAlign: 'center', marginBottom: '0px', color: 'white', fontSize: '12px' }}>Appoint</p>
+            <p
+              style={{
+                textAlign: "center",
+                marginBottom: "0px",
+                color: "white",
+                fontSize: "12px",
+              }}
+            >
+              Appoint
+            </p>
           </Link>
         </div>
       </div>

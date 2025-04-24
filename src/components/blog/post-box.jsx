@@ -57,7 +57,7 @@ const setting = {
   },
 };
 
-const PostBox = ({ data }) => {
+const PostBox = ({ data, doctorData }) => {
   const [main, setMain] = useState("");
   const [isLoop, setIsLoop] = useState(false);
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -203,7 +203,7 @@ const PostBox = ({ data }) => {
 
                 {main == "Neuroinfections" && <CategoryFive />}
                 {main == "Procedures" && <CategorySix />}
-                <CommentForm />
+                <CommentForm doctorData={doctorData} />
                 {/* <RecentPost /> */}
                 {/* <Tags /> */}
               </div>

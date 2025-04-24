@@ -4,12 +4,12 @@ import React from "react";
 import Banner from "./banner";
 import PostBox from "./post-box";
 
-const Blog = ({data}) => {
+const Blog = ({ data, doctorData }) => {
   return (
     <>
       <HeaderTwo />
-      <Banner data={data}/>
-      <PostBox data={data}/>
+      <Banner data={data} />
+      <PostBox data={data} doctorData={doctorData} />
       <FooterFour />
     </>
   );
