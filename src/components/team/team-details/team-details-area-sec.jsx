@@ -153,34 +153,45 @@ const TeamDetailsAreaSec = () => {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50">
-                <img src="/assets/img/aa14.jpg" alt="team-thumb" />
+                <img src="/assets/img/Sree-Lakshmi.png" alt="team-thumb" />
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-7 col-md-6">
               <div className="tp-team-dtls__content mt-50 mb-50">
                 <h4 className="tp-team-dtls__title mb-10">
                   <Link style={{ color: "#c61000" }} href="/">
-                    Dr. Surbhi Chaturvedi
+                    Dr Shree Lakshmi Mallya
                   </Link>
                 </h4>
-                <span className="mb-35">Neurologist</span>
-                <p style={{ color: "black" }}>
-                  Dr. Surbhi Chaturvedi, a Consultant Neurologist and gold
-                  medalist, specializes in stroke management, migraines, and
-                  advanced neurological procedures, with extensive experience
-                  and numerous publications in the field.
+                <span className="mb-35">Consultant Psychiatrist</span>
+                <p style={{ color: "black", textAlign: "justify" }}>
+                  Qualified Psychiatrist with over 7 years of experience in the
+                  assessment, diagnosis, and treatment of psychiatric disorders
+                  across different age groups; well-versed in prescribing
+                  medications, providing counseling sessions, and maintaining
+                  updated medical records of patients. Recognized for
+                  exceptional experience working with people coming from various
+                  backgrounds, knowledge of establishing goal-oriented behavior
+                  plans; familiarity with functional behavior assessments;
+                  familiarity with early development and early childhood
+                  education programs; and the ability to head a positive
+                  behavior support team. A compassionate professional motivated
+                  to learn, grow and excel in mental health by leveraging a
+                  well-rounded approach to treat the whole person, through
+                  medications, active listening, and recommending talk-centered
+                  counseling programs.
                 </p>
                 <div className="tp-team-dtls__info">
                   <ul>
                     <li style={{ display: "flex" }}>
                       Education:{" "}
                       <span style={{ marginLeft: "10px" }}>
-                        DM - Neurology, MD - General Medicine, MBBS
+                        MBBS, M.D. (Psychiatry)
                       </span>
                     </li>
                     <li style={{ display: "flex" }}>
                       Experience:{" "}
-                      <span style={{ marginLeft: "10px" }}>13 Years</span>
+                      <span style={{ marginLeft: "10px" }}>7+ Years</span>
                     </li>
                     <li style={{ display: "flex" }}>
                       E-mail:{" "}
@@ -195,7 +206,7 @@ const TeamDetailsAreaSec = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-md-12">
+            {/* <div className="col-lg-3 col-md-12">
               <div className="tp-team-dtls__social mt-45 mb-50">
                 <a href="#">
                   <i className="fa-brands fa-facebook-f"></i>
@@ -210,36 +221,38 @@ const TeamDetailsAreaSec = () => {
                   <i className="fa-brands fa-pinterest-p"></i>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="tp-team-dtls-text mt-40">
                 <h4 className="tp-team-dtls-text__title mb-30">
-                  Expert Neurologist Specialist
+                  Expert Consultant Psychiatrist
                 </h4>
                 <p style={{ color: "black", marginBottom: "15px" }}>
-                  Dr. Surbhi Chaturvedi is a certified Neurologist. Following
-                  her graduation, she completed her MD in Medicine and
-                  subsequently earned her DM in Neurology, finishing at the top
-                  of her class and receiving a Gold Medal. She possesses strong
-                  leadership abilities and a deep understanding of relevant
-                  technologies in her field.
+                  Dr. Mallya’s educational journey includes an MBBS from Mysore
+                  Medical College and Research Institute, along with her MD in
+                  Psychiatry. She has presented her research on mental health
+                  during the Covid-19 pandemic at a prestigious conference. Her
+                  compassionate approach, along with her hands-on experience at
+                  the Institute of Psychiatry and Human Behaviour, showcases her
+                  commitment to exceptional patient care.
                 </p>
-                <p style={{ color: "black" }}>
-                  Dr. Surbhi Chaturvedi is skilled in managing various
-                  neurological emergencies, including status epilepticus, acute
-                  strokes within the treatment window, myasthenic crisis,
-                  Guillain-Barré syndrome, and neurological infections. She has
-                  experience running telemedicine services and a stroke unit and
-                  is involved in neurointerventions. Her primary interests lie
-                  in stroke, followed by epilepsy and pediatric neurology. She
-                  is proficient in numerous neurological procedures, such as
-                  digital and video EEG, BERA, NCV, EMG, VEP, and tracheostomy.
-                  Additionally, Dr. Surbhi has contributed to many national and
-                  international peer-reviewed publications and has served as a
-                  keynote speaker at international conferences.
-                </p>
+                <h4>Services</h4>
+                <div className="tp-team-dtls-text__list mb-30">
+                  <ul style={{ color: "black" }}>
+                    <li>Adolescent Medicine</li>
+                    <li>Obsessive Compulsive Disorder (OCD) Treatment</li>
+                    <li>Migraine Treatment</li>
+                    <li>Family Counseling</li>
+                    <li>Cognitive Behavioral Therapy (CBT)</li>
+                    <li>Stress Management</li>
+                    <li>Nicotine/Tobacco (Smoking) De-addiction Treatment</li>
+                    <li>Alzheimers Disease</li>
+                    <li>Premarital Counseling</li>
+                    <li>Marriage/ Marital Counselling</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -255,6 +268,7 @@ const TeamDetailsAreaSec = () => {
               Book Appointment
             </Link>
           </div>
+
           {/* <div className="row">
             <div className="col-lg-4 col-md-6">
               <div

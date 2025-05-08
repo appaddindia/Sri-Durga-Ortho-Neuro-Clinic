@@ -13,11 +13,15 @@ const menu_data = [
     has_dropdown: true,
     active: "active",
     sub_menus: [
-      { link: "/dr-shashikanth-vokkaleri-orthopedic-excellence", title: "Dr. Shashikanth Vokkaleri" },
+      {
+        link: "/dr-shashikanth-vokkaleri-orthopedic-excellence",
+        title: "Dr. Shashikanth Vokkaleri",
+      },
       { link: "/dr-surbhi-chaturvedi", title: "Dr. Surbhi Chaturvedi" },
+      { link: "/drshreelakshmimallya", title: "Dr. Shree Lakshmi Mallya " },
     ],
   },
-  
+
   {
     id: 4,
     mega_menu: false,
@@ -30,15 +34,24 @@ const menu_data = [
         link: "/orthopedic-surgery",
         title: "Orthopedic Surgery",
         has_dropdown: true,
-        sub_menus : [
+        sub_menus: [
           {
             link: "/knee-replacement",
             title: "Knee Replacement",
             has_dropdown: true,
             sub_menus: [
-              { link: "/primary-Knee-replacement", title: "Primary Knee replacement" },
-              { link: "/complex-knee-replacement", title: "Complex Knee replacement" },
-              { link: "/unicondylar-knee-replacement", title: "Unicondylar Knee Replacement" },
+              {
+                link: "/primary-Knee-replacement",
+                title: "Primary Knee replacement",
+              },
+              {
+                link: "/complex-knee-replacement",
+                title: "Complex Knee replacement",
+              },
+              {
+                link: "/unicondylar-knee-replacement",
+                title: "Unicondylar Knee Replacement",
+              },
             ],
           },
           {
@@ -46,11 +59,17 @@ const menu_data = [
             title: "Knee Arthroscopy",
             has_dropdown: true,
             sub_menus: [
-              { link: "/sports-injury-treatment", title: "Sports injury Treatment" },
+              {
+                link: "/sports-injury-treatment",
+                title: "Sports injury Treatment",
+              },
               { link: "/acl-reconstruction", title: "ACL Reconstruction" },
               { link: "/pcl-reconstruction", title: "PCL Reconstruction" },
               { link: "/mcl-reconstruction", title: "MCL Reconstruction" }, // Updated link
-              { link: "/lateral-ligament-complex", title: "Lateral Ligament Complex" }, // Updated link
+              {
+                link: "/lateral-ligament-complex",
+                title: "Lateral Ligament Complex",
+              }, // Updated link
               { link: "/menstrual-injury", title: "Menstrual Injury" }, // Updated link
               { link: "/chondral-defect", title: "Chondral Defect" }, // Updated link
             ],
@@ -60,9 +79,18 @@ const menu_data = [
             title: "Hip Replacement",
             has_dropdown: true,
             sub_menus: [
-              { link: "/primary-hip-replacement", title: "Primary Hip Replacement" }, // Updated link
-              { link: "/complex-hip-replacement", title: "Complex Hip Replacement" }, // Updated link
-              { link: "/revision-hip-replacement", title: "Revision Hip Replacement" }, // Updated link
+              {
+                link: "/primary-hip-replacement",
+                title: "Primary Hip Replacement",
+              }, // Updated link
+              {
+                link: "/complex-hip-replacement",
+                title: "Complex Hip Replacement",
+              }, // Updated link
+              {
+                link: "/revision-hip-replacement",
+                title: "Revision Hip Replacement",
+              }, // Updated link
             ],
           },
           {
@@ -79,8 +107,14 @@ const menu_data = [
             title: "Shoulder Replacement",
             has_dropdown: true,
             sub_menus: [
-              { link: "/shoulder-hemiarthroplasty", title: "Shoulder Hemiarthroplasty Replacement" }, // Updated link
-              { link: "/reverse-shoulder-replacement", title: "Reverse total joint shoulder replacement" }, // Updated link
+              {
+                link: "/shoulder-hemiarthroplasty",
+                title: "Shoulder Hemiarthroplasty Replacement",
+              }, // Updated link
+              {
+                link: "/reverse-shoulder-replacement",
+                title: "Reverse total joint shoulder replacement",
+              }, // Updated link
             ],
           },
           {
@@ -88,11 +122,17 @@ const menu_data = [
             title: "Shoulder Arthroscopy",
             has_dropdown: true,
             sub_menus: [
-              { link: "/ac-joint-reconstruction", title: "AC joint reconstruction" }, // Updated link
+              {
+                link: "/ac-joint-reconstruction",
+                title: "AC joint reconstruction",
+              }, // Updated link
               { link: "/bankart-repair", title: "Bankart Repair" }, // Updated link
               { link: "/rotator-cuff-repair", title: "Rotator Cuff Repair" }, // Updated link
               { link: "/angioplasty", title: "Angioplasty" }, // Updated link
-              { link: "/augmentation-shoulder-instability", title: "Augmentation Procedure for Shoulder Instability" }, // Updated link
+              {
+                link: "/augmentation-shoulder-instability",
+                title: "Augmentation Procedure for Shoulder Instability",
+              }, // Updated link
             ],
           },
           {
@@ -109,8 +149,14 @@ const menu_data = [
             title: "Elbow Surgery",
             has_dropdown: true,
             sub_menus: [
-              { link: "/total-joint-replacement", title: "Total Joint Replacement" }, // Updated link
-              { link: "/partial-head-replacement", title: "Partial Head Replacement" }, // Updated link
+              {
+                link: "/total-joint-replacement",
+                title: "Total Joint Replacement",
+              }, // Updated link
+              {
+                link: "/partial-head-replacement",
+                title: "Partial Head Replacement",
+              }, // Updated link
               { link: "/elbow-arthroscopy", title: "Elbow Arthroscopy" }, // Updated link
             ],
           },
@@ -119,30 +165,54 @@ const menu_data = [
             title: "Spine Surgery",
             has_dropdown: true,
             sub_menus: [
-              { link: "/single-level-fixation", title: "Single Level Fixation" }, // Updated link
-              { link: "/multiple-level-fixation", title: "Multiple Level Fixation" }, // Updated link
+              {
+                link: "/single-level-fixation",
+                title: "Single Level Fixation",
+              }, // Updated link
+              {
+                link: "/multiple-level-fixation",
+                title: "Multiple Level Fixation",
+              }, // Updated link
             ],
           },
         ],
-       },
-       
-       {
+      },
+
+      {
         link: "/orthopedic-treatments",
         title: "Orthopedic Treatments",
         has_dropdown: true,
         sub_menus: [
-          { link: "/orthopaedic-consultation", title: "Orthopaedic consultation" },
-          { link: "/sports-injury-treatments", title: "Sports Injury Treatments" },
+          {
+            link: "/orthopaedic-consultation",
+            title: "Orthopaedic consultation",
+          },
+          {
+            link: "/sports-injury-treatments",
+            title: "Sports Injury Treatments",
+          },
           { link: "/ligament-tear", title: "Ligament Tear" },
-          { link: "/bone-fracture-treatment", title: "Bone Fracture Treatment" },
-          { link: "/plaster-application-fractures", title: "Plaster application for fractures" },
+          {
+            link: "/bone-fracture-treatment",
+            title: "Bone Fracture Treatment",
+          },
+          {
+            link: "/plaster-application-fractures",
+            title: "Plaster application for fractures",
+          },
           { link: "/frozen-shoulder", title: "Frozen shoulder" },
           { link: "/physiotherapy", title: "Physiotherapy" },
           { link: "/regenerative-treatment", title: "Regenerative treatment" },
           // { link: "/unicondylar-knee-replacement", title: "Unicondylar knee replacement" },
-          { link: "/bmac-injection", title: "Bone Marrow Aspirate Concentrate Injection" },
+          {
+            link: "/bmac-injection",
+            title: "Bone Marrow Aspirate Concentrate Injection",
+          },
           { link: "/prp-therapy", title: "PRP Therapy" },
-          { link: "/tendo-achilles-tendinitis", title: "Tendo Achilles tendinitis" },
+          {
+            link: "/tendo-achilles-tendinitis",
+            title: "Tendo Achilles tendinitis",
+          },
           { link: "/diagnostic-laboratory", title: "Diagnostic laboratory" },
           { link: "/stemcell-therapy", title: "Stemcell therapy" },
           { link: "/trigger-finger-release", title: "Trigger finger release" },
@@ -151,7 +221,7 @@ const menu_data = [
           { link: "/plantar-fascitis", title: "Plantar fascitis" },
           { link: "/trigger-point-release", title: "Trigger point release" },
         ],
-      }
+      },
     ],
   },
   {
@@ -166,7 +236,7 @@ const menu_data = [
         link: "/categorize",
         title: "Categorize",
         has_dropdown: true,
-        sub_menus : [
+        sub_menus: [
           {
             link: "/stroke-categorize",
             title: "Stroke",
@@ -212,15 +282,21 @@ const menu_data = [
             title: "Neuroinfections",
             has_dropdown: true,
             sub_menus: [
-              { link: "/spinal-cord-disorder", title: "Spinal cord disorder" }, 
-              { link: "/sleep-disorder", title: "Sleep disorder" }, 
-              { link: "/autonomic-function-disorder", title: "Autonomic function disorder" }, 
-              { link: "/alzheimers-dementia", title: "Alzheimer's and other dementia" }, 
-              { link: "/pediatric-neurology", title: "Pediatric Neurology" }, 
-              { link: "/vertigo-dizziness", title: "Vertigo/Dizziness" }
-            ]
-          }
-        ]
+              { link: "/spinal-cord-disorder", title: "Spinal cord disorder" },
+              { link: "/sleep-disorder", title: "Sleep disorder" },
+              {
+                link: "/autonomic-function-disorder",
+                title: "Autonomic function disorder",
+              },
+              {
+                link: "/alzheimers-dementia",
+                title: "Alzheimer's and other dementia",
+              },
+              { link: "/pediatric-neurology", title: "Pediatric Neurology" },
+              { link: "/vertigo-dizziness", title: "Vertigo/Dizziness" },
+            ],
+          },
+        ],
       },
       {
         link: "/procedures",
@@ -231,14 +307,20 @@ const menu_data = [
           { link: "/ncs-face-limbs", title: "⁠NCS of face and limbs" },
           { link: "/blink-reflex", title: "Blink reflex" },
           { link: "/h-reflex", title: "H reflex" },
-          { link: "/visual-evoked-potential", title: "Visual evoked potential" },
-          { link: "/repetitive-nerve-stimulation", title: "⁠Repetitive Nerve stimulation" },
+          {
+            link: "/visual-evoked-potential",
+            title: "Visual evoked potential",
+          },
+          {
+            link: "/repetitive-nerve-stimulation",
+            title: "⁠Repetitive Nerve stimulation",
+          },
           { link: "/baer", title: "⁠BAER" },
-          { link: "/emg", title: "⁠EMG" }
-        ]
-      }
-    ]
-},
+          { link: "/emg", title: "⁠EMG" },
+        ],
+      },
+    ],
+  },
   // {
   //   id: 5,
   //   mega_menu: false,

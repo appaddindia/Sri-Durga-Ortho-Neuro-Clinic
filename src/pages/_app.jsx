@@ -12,7 +12,8 @@ export default function App({ Component, pageProps }) {
     // Ensure jQuery is available globally
     if (!window.jQuery) {
       const script = document.createElement("script");
-      script.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
+      script.src =
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js";
       script.onload = () => runCustomPlugin();
       document.head.appendChild(script);
     } else {
@@ -40,13 +41,11 @@ export default function App({ Component, pageProps }) {
       );
       eptagmanage.send();
     }
-  }, []);   
+  }, []);
 
   return (
     <>
-      <Head>
-        {/* Additional head content can be added here */}
-      </Head>
+      <Head>{/* Additional head content can be added here */}</Head>
       <Component {...pageProps} />
     </>
   );
