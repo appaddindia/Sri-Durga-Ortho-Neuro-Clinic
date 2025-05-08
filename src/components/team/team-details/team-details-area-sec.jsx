@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -153,7 +154,13 @@ const TeamDetailsAreaSec = () => {
           <div className="row">
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50">
-                <img src="/assets/img/Sree-Lakshmi.png" alt="team-thumb" />
+                <Image
+                  src="/assets/img/laxmi.jpeg"
+                  alt="Team Member"
+                  width={500}
+                  height={500}
+                  layout="responsive"
+                />
               </div>
             </div>
             <div className="col-lg-7 col-md-6">
