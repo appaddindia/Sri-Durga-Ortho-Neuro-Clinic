@@ -155,7 +155,7 @@ const TeamDetailsAreaSec = () => {
             <div className="col-lg-5 col-md-6">
               <div className="tp-team-dtls__thumb mb-50">
                 <Image
-                  src="/assets/img/laxmi.jpeg"
+                  src="/assets/img/laxmii.jpeg"
                   alt="Team Member"
                   width={500}
                   height={500}
