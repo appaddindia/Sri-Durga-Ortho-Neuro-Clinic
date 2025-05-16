@@ -5,34 +5,6 @@ import { Navigation } from "swiper";
 
 const hero_slider = [
   {
-    id: 1,
-    left_img: "assets/img/about/about-bg-01.png",
-    link: "/dr-surbhi-chaturvedi",
-    experience_count: 12,
-    experience_count_text: (
-      <>
-        Years of <br />
-        Experience
-      </>
-    ),
-    title: "Neurologist",
-    section_title: "Dr. Surbhi Chaturvedi",
-    section_sub_title:
-      "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
-    section_des: (
-      <>
-        Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 13 years of
-        experience, specializing in stroke management, migraines, Parkinson’s
-        disease, epilepsy, and other neurological disorders. A gold medalist in
-        her studies, she has advanced expertise in digital EEG and EMG, and is a
-        published author and international conference speaker.
-      </>
-    ),
-    know_more: "/",
-    img_1: "/assets/img/aa14.jpg",
-    // img_2: "../assets/img/aa164.png",
-  },
-  {
     id: 2,
     left_img: "assets/img/about/about-bg-01.png",
     link: "/dr-shashikanth-vokkaleri-orthopedic-excellence",
@@ -74,7 +46,7 @@ const hero_slider = [
     title: "Consultant Psychiatrist & Counseling",
     section_title: "Dr Shree Lakshmi Mallya",
     section_sub_title:
-      " Dr. Shree Lakshmi Mallya , MBBS, M.D. (Psychiatry) , Consultant Psychiatrist & Counseling",
+      " MBBS, M.D. (Psychiatry) , Consultant Psychiatrist & Counseling",
     section_des: (
       <>
         Qualified Psychiatrist with over 7 years of experience in the
@@ -95,6 +67,34 @@ const hero_slider = [
     know_more: "/",
     img_1: "/assets/img/Adobe Express - file.webp",
     // img_2: "../assets/img/aa163.png",
+  },
+  {
+    id: 1,
+    left_img: "assets/img/about/about-bg-01.png",
+    link: "/dr-surbhi-chaturvedi",
+    experience_count: 12,
+    experience_count_text: (
+      <>
+        Years of <br />
+        Experience
+      </>
+    ),
+    title: "Neurologist",
+    section_title: "Dr. Surbhi Chaturvedi",
+    section_sub_title:
+      "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
+    section_des: (
+      <>
+        Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 13 years of
+        experience, specializing in stroke management, migraines, Parkinson’s
+        disease, epilepsy, and other neurological disorders. A gold medalist in
+        her studies, she has advanced expertise in digital EEG and EMG, and is a
+        published author and international conference speaker.
+      </>
+    ),
+    know_more: "/",
+    img_1: "/assets/img/aa14.jpg",
+    // img_2: "../assets/img/aa164.png",
   },
 ];
 
