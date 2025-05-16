@@ -345,6 +345,14 @@ const menu_data = [
   {
     id: 6,
     mega_menu: false,
+    has_dropdown: false,
+    title: "Psychiatric",
+    link: "/psychiatric",
+    active: "",
+  },
+  {
+    id: 7,
+    mega_menu: false,
     has_dropdown: true,
     title: "More",
     link: "/blog",
@@ -352,15 +360,16 @@ const menu_data = [
     sub_menus: [
       { link: "/gallery", title: "Gallery" },
       { link: "/blog-details", title: "Blog Details" },
+      { link: "/contact", title: "Contact" },
     ],
   },
-  {
-    id: 7,
-    mega_menu: false,
-    has_dropdown: false,
-    title: "Contact",
-    link: "/contact",
-    active: "",
-  },
+  // {
+  //   id: 8,
+  //   mega_menu: false,
+  //   has_dropdown: false,
+  //   title: "Contact",
+  //   link: "/contact",
+  //   active: "",
+  // },
 ];
 export default menu_data;
