@@ -30,7 +30,7 @@ const hero_slider = [
     ),
     know_more: "/",
     img_1: "/assets/img/aa14.jpg",
-    img_2: "../assets/img/aa164.png",
+    // img_2: "../assets/img/aa164.png",
   },
   {
     id: 2,
@@ -58,7 +58,43 @@ const hero_slider = [
     ),
     know_more: "/",
     img_1: "/assets/img/aa13.jpg",
-    img_2: "../assets/img/aa163.png",
+    // img_2: "../assets/img/aa163.png",
+  },
+  {
+    id: 3,
+    left_img: "/assets/img/Adobe Express - file.webp",
+    link: "/drshreelakshmimallya",
+    experience_count: 7,
+    experience_count_text: (
+      <>
+        Years of <br />
+        Experience
+      </>
+    ),
+    title: "Consultant Psychiatrist & Counseling",
+    section_title: "Dr Shree Lakshmi Mallya",
+    section_sub_title:
+      " Dr. Shree Lakshmi Mallya , MBBS, M.D. (Psychiatry) , Consultant Psychiatrist & Counseling",
+    section_des: (
+      <>
+        Qualified Psychiatrist with over 7 years of experience in the
+        assessment, diagnosis, and treatment of psychiatric disorders across
+        different age groups; well-versed in prescribing medications, providing
+        counseling sessions, and maintaining updated medical records of
+        patients. Recognized for exceptional experience working with people
+        coming from various backgrounds, knowledge of establishing goal-oriented
+        behavior plans; familiarity with functional behavior assessments;
+        familiarity with early development and early childhood education
+        programs; and the ability to head a positive behavior support team. A
+        compassionate professional motivated to learn, grow and excel in mental
+        health by leveraging a well-rounded approach to treat the whole person,
+        through medications, active listening, and recommending talk-centered
+        counseling programs.
+      </>
+    ),
+    know_more: "/",
+    img_1: "/assets/img/Adobe Express - file.webp",
+    // img_2: "../assets/img/aa163.png",
   },
 ];
 
@@ -222,9 +258,9 @@ const HeroBanner = () => {
                       <div className="slider-content__bg">
                         <img src={item.img_1} alt="about-thumb" />
                       </div>
-                      <div className="slider-content__shape d-none d-md-block">
+                      {/* <div className="slider-content__shape d-none d-md-block">
                         <img src={item.img_2} alt="slider-shape" />
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>

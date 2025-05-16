@@ -28,7 +28,7 @@ const psychiatricdata = [
     id: 80,
     img: "/assets/img/psychiatry.jpg.webp",
     banner: "/assets/img/what-is-a-psychiatrist.webp",
-    title: "Psychiatric",
+    title: "Psychiatric Treatments",
     main: "Psychiatric",
     submain: "",
     link: "/psychiatric",
