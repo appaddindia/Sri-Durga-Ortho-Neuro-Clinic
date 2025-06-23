@@ -15,20 +15,28 @@ const contact_info = {
   open: (
     <>
       <div class="consultation">
-        <h6>Orthopedic Consultation</h6>
+        <h6>Orthopaedic Consultation</h6>
         <p style={{ color: "black" }}>
-          <strong>Morning Hours:</strong> Monday to Saturday: 4 PM to 6 PM
+          <strong>Dr. Shashikanth (Vokkaleri):</strong> Monday to Saturday: 9:00
+          AM to 10:15 AM, 4:00 PM to 5:30 PM
         </p>
       </div>
       <div class="consultation">
         <h6>Neurology Consultation</h6>
         <p style={{ color: "black" }}>
-          <strong>Afternoon & Evening Hours:</strong> Monday to Saturday: 3:30
-          PM to 8:30 PM
+          <strong>Dr. Surbhi Chaturvedi:</strong> Monday to Saturday: 6:30 PM to
+          8:30 PM
+        </p>
+      </div>
+      <div class="consultation">
+        <h6>Psychiatrist Consultation</h6>
+        <p style={{ color: "black" }}>
+          <strong>Dr. Shree Lakshmi Malya:</strong> Monday to Saturday: 10:00 AM
+          to 11:00 AM
         </p>
       </div>
       <p style={{ color: "black" }}>
-        <b>Sunday :</b> As Per Prior appointment only .
+        <b>Sunday :</b> As Per Prior appointment only.
       </p>
     </>
   ),

@@ -102,10 +102,11 @@ const HeaderTwo = () => {
                 <div className="col-lg-8">
                   <div className="header-time">
                     <span style={{ marginLeft: "0px" }}>
-                      <i className="fa-light fa-clock-ten"></i> Ortho: 4-6 pm;
-                      Neuro: 7:30-8:30AM, 7-8:30PM
+                      <i className="fa-light fa-clock-ten"></i> Ortho: 9AM to
+                      10.15AM , 4PM to 5.30PM | Neuro: 6.30PM to 8.30PM |
+                      Psychiatry: 9AM to 10.15AM
                     </span>
-                    <span>Address: Rachenahalli, Bengaluru</span>
+                    {/* <span>Address: Rachenahalli, Bengaluru</span> */}
                   </div>
                 </div>
               </div>
