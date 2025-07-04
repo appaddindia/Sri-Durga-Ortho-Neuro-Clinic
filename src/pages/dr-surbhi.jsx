@@ -66,8 +66,8 @@ const index = () => {
                   an invaluable asset to her patients and the medical community.
                 </p>
                 <div className="tp-about__btn">
-                  <Link className="tp-btn" href="/dr-surbhi-chaturvedi">
-                    Know More
+                  <Link className="tp-btn" href="/contact">
+                    Contact Us
                   </Link>
                   <a
                     style={{ backgroundColor: "#c61000" }}
