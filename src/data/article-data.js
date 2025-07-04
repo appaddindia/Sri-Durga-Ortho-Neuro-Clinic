@@ -3517,7 +3517,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -3590,7 +3590,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -3663,7 +3663,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -3736,7 +3736,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -3807,7 +3807,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -3878,7 +3878,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -3954,7 +3954,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
 
@@ -4033,7 +4033,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4106,7 +4106,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4178,7 +4178,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4250,7 +4250,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4322,7 +4322,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4397,7 +4397,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4467,7 +4467,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4541,7 +4541,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4618,7 +4618,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4694,7 +4694,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4770,7 +4770,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4848,7 +4848,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -4927,7 +4927,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5009,7 +5009,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5093,7 +5093,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5180,7 +5180,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5263,7 +5263,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5353,7 +5353,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5432,7 +5432,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5509,7 +5509,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5579,7 +5579,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5651,7 +5651,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5723,7 +5723,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5799,7 +5799,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5872,7 +5872,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
   {
@@ -5946,7 +5946,7 @@ const article_data = [
       qualification:
         "MBBS, MD(Medicine), DM(Neurology), FCSC Fellowship in Stroke (Calgary)",
       image: "/assets/img/aa14.jpg",
-      link: "dr-surbhi-chaturvedi",
+      link: "dr-surbhi",
     },
   },
 ];

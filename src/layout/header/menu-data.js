@@ -18,7 +18,7 @@ const menu_data = [
         title: "Dr. Shashikanth Vokkaleri",
       },
       { link: "/dr-surbhi-chaturvedi", title: "Dr. Surbhi Chaturvedi" },
-      { link: "/drshreelakshmimallya", title: "Dr. Shree Lakshmi Mallya " },
+      { link: "/drshreelakshmimallya", title: "Dr. Shree Lakshmi Mallya" },
     ],
   },
 

@@ -71,7 +71,7 @@ const hero_slider = [
   {
     id: 1,
     left_img: "assets/img/about/about-bg-01.png",
-    link: "/dr-surbhi-chaturvedi",
+    link: "/dr-surbhi",
     experience_count: 12,
     experience_count_text: (
       <>
