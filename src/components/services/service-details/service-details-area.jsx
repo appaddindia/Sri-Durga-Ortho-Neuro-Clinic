@@ -296,6 +296,73 @@ const ServiceDetailsArea = () => {
               </div>
             </div> */}
           </div>
+          <div className="row" style={{ marginTop: "80px" }}>
+            <div className="col-lg-12">
+              <div className="row">
+                <div className="col-lg-4 col-md-6 col-12">
+                  <img
+                    style={{ width: "100%", borderRadius: "8px" }}
+                    src="/assets/img/laxmii.jpeg"
+                    alt="Dr Shree Lakshmi Mallya"
+                  />
+                </div>
+                <div className="col-lg-8 col-md-6 col-12">
+                  <div className="tp-srv-process mb-0">
+                    <span className="tp-section__sub-title left-line mb-15">
+                      Consultant Psychiatrist
+                    </span>
+                    <h4
+                      style={{ color: "#c61000" }}
+                      className="tp-srv-stap__title mb-25"
+                    >
+                      Dr. Shree Lakshmi Mallya
+                    </h4>
+                    <a
+                      style={{ marginBottom: "15px" }}
+                      className="tp-section__link mb-15"
+                      href="#"
+                    >
+                      <b>MBBS, MD - Psychiatry</b>
+                    </a>
+                    <p style={{ color: "black" }} className="mb-20">
+                      Dr. Shree Lakshmi Mallya is a compassionate Consultant
+                      Psychiatrist with over 7 years of experience in assessing,
+                      diagnosing, and treating psychiatric disorders across all
+                      age groups. She is well-versed in medication management,
+                      counselling therapies, and maintaining comprehensive
+                      patient records. With a strong background in creating
+                      goal-oriented behavioral plans and early childhood mental
+                      health programs, Dr. Mallya brings a holistic and
+                      empathetic approach to patient care.
+                    </p>
+                    <p style={{ color: "black" }} className="mb-40">
+                      Her academic foundation includes an MBBS from Mysore
+                      Medical College and Research Institute and an MD in
+                      Psychiatry. She has served at the Institute of Psychiatry
+                      and Human Behaviour and has presented her research on
+                      mental health during the COVID-19 pandemic at esteemed
+                      medical conferences. Known for her dedication to patient
+                      wellness, she emphasizes medication, active listening, and
+                      talk-centered therapy for optimal mental health outcomes.
+                    </p>
+                    <div className="tp-about__btn">
+                      <Link className="tp-btn" href="/dr-shree-lakshmi-mallya">
+                        Know More
+                      </Link>
+                      <a
+                        style={{ backgroundColor: "#c61000" }}
+                        className="tp-btn-second ml-25"
+                        href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
+                      >
+                        Book Appointment
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* <div className="row">
             <div className="col-lg-12">
               <div className="tp-srv-research mb-50">
