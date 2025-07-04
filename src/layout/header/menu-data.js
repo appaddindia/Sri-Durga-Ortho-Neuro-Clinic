@@ -17,7 +17,7 @@ const menu_data = [
         link: "/dr-shashikanth-vokkaleri-orthopedic-excellence",
         title: "Dr. Shashikanth Vokkaleri",
       },
-      { link: "/dr-surbhi-chaturvedi", title: "Dr. Surbhi Chaturvedi" },
+      { link: "/dr-surbhi", title: "Dr. Surbhi Chaturvedi" },
       { link: "/drshreelakshmimallya", title: "Dr. Shree Lakshmi Mallya" },
     ],
   },

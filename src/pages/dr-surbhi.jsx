@@ -14,205 +14,71 @@ const index = () => {
       <section className="team-details-area pt-130 pb-70">
         <div className="container">
           <div className="row">
-            <div className="col-lg-5 col-md-6">
-              <div className="tp-team-dtls__thumb mb-50">
-                <img src="/assets/img/aa14.jpg" alt="team-thumb" />
-              </div>
+            <div className="col-lg-4 col-md-6 col-12">
+              <img
+                style={{ width: "100%", borderRadius: "8px" }}
+                src="/assets/img/aa14.jpg"
+                alt=""
+              />
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="tp-team-dtls__content mt-50 mb-50">
-                <h4 className="tp-team-dtls__title mb-10">
-                  <Link style={{ color: "#c61000" }} href="/">
-                    Dr. Surbhi Chaturvedi
-                  </Link>
+            <div className="col-lg-8 col-md-6 col-12">
+              <div className="tp-srv-process mb-0">
+                <span className="tp-section__sub-title left-line mb-15">
+                  Neurologist
+                </span>
+                <h4
+                  style={{ color: "#c61000" }}
+                  className="tp-srv-stap__title mb-25"
+                >
+                  Dr. Surbhi Chaturvedi
                 </h4>
-                <span className="mb-35">Consultant Neurologist</span>
-                <p style={{ color: "black" }}>
-                  Experienced neurologist specializing in stroke care, epilepsy,
-                  neurodegenerative disorders, and advanced neurodiagnostics.
-                </p>
-                <div className="tp-team-dtls__info">
-                  <ul>
-                    <li style={{ display: "flex" }}>
-                      Qualification:{" "}
-                      <span style={{ marginLeft: "10px" }}>
-                        DM - Neurology, MD - General Medicine, MBBS
-                      </span>
-                    </li>
-                    <li style={{ display: "flex" }}>
-                      Experience:{" "}
-                      <span style={{ marginLeft: "10px" }}>13 Years</span>
-                    </li>
-                    <li style={{ display: "flex" }}>
-                      Hospital:{" "}
-                      <span style={{ marginLeft: "10px" }}>
-                        Trilife Hospital (formerly Specialist Hospital), Kalyan
-                        Nagar, Bangalore
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-12">
-              <div className="tp-team-dtls__social mt-45 mb-50">
-                <a href="#">
-                  <i className="fa-brands fa-facebook-f"></i>
-                </a>
-                <a className="tp-dtls-insta" href="#">
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-                <a className="tp-dtls-tweet" href="#">
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
-                <a className="tp-dtls-pinter" href="#">
-                  <i className="fa-brands fa-pinterest-p"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="tp-team-dtls-text mt-40">
-                <h4 className="tp-team-dtls-text__title mb-15">Overview</h4>
-                <p style={{ color: "black" }}>
-                  Dr. Surbhi Chaturvedi is a Consultant Neurologist with over 13
-                  years of experience. She earned her MBBS in 2011, followed by
-                  MD in General Medicine in 2016, and DM in Neurology in 2019,
-                  graduating with a gold medal. She worked at NIMHANS and
-                  completed a prestigious stroke fellowship in Canada, earning
-                  the FCSC-E certification. Her expertise spans acute stroke
-                  care, epilepsy, Parkinson’s, sleep disorders, and
-                  neurodegenerative diseases.
-                </p>
-
-                <div
-                  style={{
-                    backgroundColor: "#f8f8f8",
-                    padding: "15px",
-                    borderRadius: "5px",
-                    marginTop: "20px",
-                    marginBottom: "15px",
-                  }}
+                <a
+                  style={{ marginBottom: "15px" }}
+                  className="tp-section__link mb-15"
+                  href="#"
                 >
-                  <ul>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>1)</span> Completed
-                      DM in Neurology with gold medal honors in 2019.
-                    </li>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>2)</span> Served as
-                      Assistant Professor at NIMHANS, Bangalore.
-                    </li>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>3)</span> Completed
-                      fellowship in Stroke at a leading center in Canada and
-                      earned FCSC–E certification.
-                    </li>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>4)</span>{" "}
-                      Sub-investigator in 8 RCTs and contributor to 4 clinical
-                      research projects.
-                    </li>
-                  </ul>
-                </div>
-
-                <div
-                  style={{
-                    backgroundColor: "#f8f8f8",
-                    padding: "15px",
-                    borderRadius: "5px",
-                    marginTop: "20px",
-                    marginBottom: "35px",
-                  }}
-                >
-                  <ul>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>1)</span> Expertise
-                      in treating migraine, epilepsy, stroke, Parkinson’s
-                      disease, multiple sclerosis, vertigo, and sleep disorders.
-                    </li>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>2)</span> Skilled in
-                      digital and video EEG, BERA, NCV, EMG, VEP, and
-                      transcranial Doppler.
-                    </li>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>3)</span> Member of
-                      the Indian Academy of Neurology and Indian Epilepsy
-                      Association.
-                    </li>
-                    <li
-                      style={{
-                        color: "black",
-                        marginBottom: "6px",
-                        display: "flex",
-                      }}
-                    >
-                      <span style={{ marginRight: "8px" }}>4)</span> Awarded
-                      MRCPS(Glasgow) for outstanding international
-                      contributions.
-                    </li>
-                  </ul>
+                  <b>DM - Neurology, MD - General Medicine, MBBS</b>
+                </a>
+                <p style={{ color: "black" }} className="mb-20">
+                  Dr. Surbhi Chaturvedi is a highly regarded Consultant
+                  Neurologist with over five years of dedicated experience in
+                  the field. She earned her MD in Medicine in 2016 and completed
+                  her DM in Neurology in 2019, graduating as the topper of her
+                  class and receiving a prestigious Gold medal. Dr. Chaturvedi
+                  honed her skills during her training at the renowned National
+                  Institute of Mental Health and Neurosciences (NIMHANS) in
+                  India and further enhanced her expertise through a prestigious
+                  Stroke fellowship in Canada. As a Fellow of the Canadian
+                  Stroke Consortium, she has developed a strong focus on stroke
+                  management, among other neurological disorders.
+                </p>
+                <p style={{ color: "black" }} className="mb-40">
+                  Dr. Chaturvedis clinical expertise encompasses a wide range of
+                  conditions, including migraines, Parkinsons disease, epilepsy,
+                  and more. She excels in performing advanced procedures such as
+                  digital EEG and electromyography (EMG), which are essential
+                  for accurate diagnosis and treatment planning. In addition to
+                  her clinical work, she has authored numerous peer-reviewed
+                  publications and has established herself as a thought leader
+                  in the field by serving as a keynote speaker at international
+                  conferences. Dr. Chaturvedi’s commitment to advancing
+                  neurological care and her focus on patient outcomes make her
+                  an invaluable asset to her patients and the medical community.
+                </p>
+                <div className="tp-about__btn">
+                  <Link className="tp-btn" href="/dr-surbhi-chaturvedi">
+                    Know More
+                  </Link>
+                  <a
+                    style={{ backgroundColor: "#c61000" }}
+                    className="tp-btn-second ml-25"
+                    href="https://click4appointment.com/clinic-details/sridurgaorthoneuroclinic-4196"
+                  >
+                    Book Appointment
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className="tp-about__btn">
-            <Link className="tp-btn" href="/contact">
-              Contact Us
-            </Link>
-            <Link
-              style={{ backgroundColor: "#c61000" }}
-              className="tp-btn-second ml-25"
-              href="https://click4appointment.com/clinic-details/surbhichaturvedi"
-            >
-              Book Appointment
-            </Link>
           </div>
         </div>
       </section>
