@@ -346,7 +346,7 @@ const ServiceDetailsArea = () => {
                       talk-centered therapy for optimal mental health outcomes.
                     </p>
                     <div className="tp-about__btn">
-                      <Link className="tp-btn" href="/dr-shree-lakshmi-mallya">
+                      <Link className="tp-btn" href="/drshreelakshmimallya">
                         Know More
                       </Link>
                       <a
