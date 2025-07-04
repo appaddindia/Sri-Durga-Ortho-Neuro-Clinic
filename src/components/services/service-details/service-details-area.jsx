@@ -190,7 +190,7 @@ const ServiceDetailsArea = () => {
                       the medical community.
                     </p>
                     <div className="tp-about__btn">
-                      <Link className="tp-btn" href="/dr-surbhi-chaturvedi">
+                      <Link className="tp-btn" href="/dr-surbhi">
                         Know More
                       </Link>
                       <a
