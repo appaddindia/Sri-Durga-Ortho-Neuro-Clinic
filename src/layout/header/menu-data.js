@@ -19,6 +19,7 @@ const menu_data = [
       },
       { link: "/dr-surbhi", title: "Dr. Surbhi Chaturvedi" },
       { link: "/drshreelakshmimallya", title: "Dr. Shree Lakshmi Mallya" },
+      { link: "/dr-subrata-kumar-pal", title: "Dr. Subrata Kumar Pal" },
     ],
   },
 
@@ -349,6 +350,21 @@ const menu_data = [
     title: "Psychiatric",
     link: "/psychiatric",
     active: "",
+  },
+  {
+    id: 7,
+    mega_menu: false,
+    has_dropdown: true,
+    title: "Services",
+    link: "#",
+    active: "",
+    sub_menus: [
+      { link: "/psychiatric", title: "Psychiatric" },
+      {
+        link: "/general-medicine-and-diabetology",
+        title: "General Medicine & Diabetology",
+      },
+    ],
   },
   {
     id: 7,
