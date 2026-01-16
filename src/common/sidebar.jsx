@@ -1,32 +1,68 @@
+"use client";
+
 import MobileMenus from "@/layout/header/mobile-menus";
 import ImagePopup from "@/modals/ImagePopup";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const images = [
   {
-    img: "/assets/img/blog/blog-in-01.jpg",
+    title: "YouTube Shorts",
+    type: "youtube",
+    src: "https://www.youtube.com/embed/7k_hXzHi0XA",
+  },
+  // {
+  //   title: "Instagram Reel",
+  //   type: "instagram",
+  //   src: "https://www.instagram.com/reel/DSKHM8Qgmz-/",
+  // },
+  {
+    title: "Instagram Post",
+    type: "image",
+    src: "/assets/img/insta-post.jpg",
   },
   {
-    img: "/assets/img/blog/blog-in-02.jpg",
-  },
-  {
-    img: "/assets/img/blog/blog-in-03.jpg",
+    title: "Facebook Post",
+    type: "image",
+    src: "/assets/img/facebook-post.jpg",
   },
 ];
 
+const InstagramEmbed = ({ url }) => {
+  useEffect(() => {
+    if (window.instgrm) {
+      window.instgrm.Embeds.process();
+    }
+  }, []);
+
+  return (
+    <blockquote
+      className="instagram-media"
+      data-instgrm-permalink={url}
+      data-instgrm-version="14"
+      style={{ width: "10px", maxWidth: "10px" }}
+    ></blockquote>
+  );
+};
+
 const Sidebar = ({ isActive, setIsActive }) => {
-  // photoIndex
   const [photoIndex, setPhotoIndex] = useState(null);
-  // image open state
   const [isOpen, setIsOpen] = useState(false);
-  // handleImagePopup
+
   const handleImagePopup = (i) => {
     setPhotoIndex(i);
     setIsOpen(true);
   };
-  //  images
-  const img = images.map((item) => item.img);
+
+  // Load Instagram embed script
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://www.instagram.com/embed.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
+
+  const img = images.map((item) => item.src);
 
   return (
     <>
@@ -41,6 +77,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
         >
           <i className="fal fa-times"></i>
         </button>
+
         <div className="tpsideinfo__logo mb-40">
           <Link href="/">
             <img src="/assets/img/logo/logo.png" alt="logo" />
@@ -60,16 +97,20 @@ const Sidebar = ({ isActive, setIsActive }) => {
             Chaturvedi, we provide advanced treatments. Book your appointment
             today!
           </p>
+
           <span>Contact Us</span>
+
           <a style={{ display: "flex" }} href="#">
-            <i style={{ marginTop: "4px" }} className="fa-solid fa-star"></i>1st
-            Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS
-            Layout, Rachenahalli,Hegde Nagar , Bengaluru, Karnataka 560077
+            <i style={{ marginTop: "4px" }} className="fa-solid fa-star"></i>
+            1st Floor, Shiva Ram Karanath Nagar, No. 42 & 25, 80 Feet Rd, MCEHS
+            Layout, Rachenahalli, Hegde Nagar, Bengaluru, Karnataka 560077
           </a>
+
           <a style={{ display: "flex" }} href="tel:9980445660">
             <i style={{ marginTop: "4px" }} className="fa-solid fa-star"></i>
             9980445660
           </a>
+
           <a
             style={{ display: "flex" }}
             href="mailto:sridurgaorthoneuroclinic@gmail.com"
@@ -78,6 +119,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
             sridurgaorthoneuroclinic@gmail.com
           </a>
         </div>
+
         <div className="tpsideinfo__content-inputarea mb-60 d-none d-xl-block">
           <span>Get Update</span>
           <div className="tpsideinfo__content-inputarea-input">
@@ -89,21 +131,55 @@ const Sidebar = ({ isActive, setIsActive }) => {
             </a>
           </div>
         </div>
+
+        {/* GALLERY */}
         <div className="tpsideinfo__gallery mb-35 d-none d-xl-block">
-          <span>Check Instagram Post</span>
+          <span>Check our Posts</span>
+
           <div className="tpsideinfo__gallery-item">
             {images.map((item, i) => (
               <a
                 key={i}
-                style={{ cursor: "pointer" }}
+                style={{
+                  cursor: "pointer",
+                  padding: "5px",
+                  textAlign: "start ",
+                }}
                 onClick={() => handleImagePopup(i)}
                 className="popup-image"
               >
-                <img src={item.img} alt="" />
+                {" "}
+                <span> {item.title}</span>
+                {item.type === "youtube" && (
+                  <iframe
+                    src={item.src}
+                    title="YouTube Shorts"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    style={{
+                      borderRadius: "8px",
+                    }}
+                  />
+                )}
+                {/* {item.type === "instagram" && <InstagramEmbed url={item.src} />} */}
+                {item.type === "image" && (
+                  <img
+                    src={item.src}
+                    alt="post"
+                    style={{
+                      height: "180px",
+                      width: "85%",
+                      objectFit: "cover",
+                      borderRadius: "8px",
+                    }}
+                  />
+                )}
               </a>
             ))}
           </div>
         </div>
+
         <div className="tpsideinfo__socialicon">
           <a href="https://www.youtube.com/@sridurgaorthoneuroclinic/">
             <i className="fa-brands fa-youtube"></i>
@@ -125,7 +201,7 @@ const Sidebar = ({ isActive, setIsActive }) => {
         className={`body-overlay ${isActive ? "opened" : ""}`}
       ></div>
 
-      {/* image light box start */}
+      {/* IMAGE POPUP */}
       {isOpen && (
         <ImagePopup
           images={img}
@@ -134,7 +210,6 @@ const Sidebar = ({ isActive, setIsActive }) => {
           setPhotoIndex={setPhotoIndex}
         />
       )}
-      {/* image light box end */}
     </>
   );
 };
