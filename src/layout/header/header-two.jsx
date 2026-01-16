@@ -102,8 +102,8 @@ const HeaderTwo = () => {
                 <div className="col-lg-8">
                   <div className="header-time">
                     <span style={{ marginLeft: "0px" }}>
-                      <i className="fa-light fa-clock-ten"></i> Ortho: 9AM to
-                      10.15AM , 4PM to 5.30PM | Neuro: 6.30PM to 8.30PM |
+                      <i className="fa-light fa-clock-ten"></i> Ortho : MON - SAT : 11 AM -
+                      12 PM and 4PM -6 PM | Neuro: 6.30PM to 8.30PM |
                       Psychiatry: 10AM to 11PM
                     </span>
                     {/* <span>Address: Rachenahalli, Bengaluru</span> */}

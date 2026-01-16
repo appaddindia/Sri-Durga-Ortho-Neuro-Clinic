@@ -355,7 +355,7 @@ const menu_data = [
     mega_menu: false,
     has_dropdown: true,
     title: "More",
-    link: "/blog",
+    link: "#",
     active: "",
     sub_menus: [
       { link: "/gallery", title: "Gallery" },

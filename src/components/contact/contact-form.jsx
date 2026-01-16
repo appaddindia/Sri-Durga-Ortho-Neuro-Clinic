@@ -17,8 +17,7 @@ const contact_info = {
       <div class="consultation">
         <h6>Orthopaedic Consultation</h6>
         <p style={{ color: "black" }}>
-          <strong>Dr. Shashikanth (Vokkaleri):</strong> Monday to Saturday: 9:00
-          AM to 10:15 AM, 4:00 PM to 5:30 PM
+          <strong>Dr. Shashikanth (Vokkaleri):</strong> Monday to Saturday : 11 AM - 12 PM  and  4PM - 6 PM
         </p>
       </div>
       <div class="consultation">
