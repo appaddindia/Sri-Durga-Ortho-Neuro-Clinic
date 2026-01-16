@@ -38,6 +38,21 @@ const FooterFour = ({ style_2 = false }) => {
                         health—book your appointment today!
                       </p>
                     </div>
+                    <div className="tp-footer-widget__social fw-social">
+                      <a href="https://www.facebook.com/sridurgaorthoandneuro/">
+                        <i className="fa-brands fa-facebook-f"></i>
+                      </a>
+                      <a href="https://share.google/A4V80uN5VjBv7GHGx">
+                        <i className="fa-brands fa-google"></i>
+                      </a>
+                      <a href="https://www.instagram.com/sridurgaorthoneuroclinic/">
+                        <i className="fa-brands fa-instagram"></i>
+                      </a>
+
+                      <a href="https://www.youtube.com/@sridurgaorthoneuroclinic/">
+                        <i className="fa-brands fa-youtube"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className="col-xl-3 col-lg-3 col-md-6">
@@ -235,23 +250,6 @@ const FooterFour = ({ style_2 = false }) => {
                         </li>
                       </ul>
                     </div>
-                    {/* <div className="tp-footer-widget__social fw-social">
-                      <a href="#">
-                        <i className="fa-brands fa-facebook-f"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-twitter"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-instagram"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-light fa-basketball"></i>
-                      </a>
-                      <a href="#">
-                        <i className="fa-brands fa-youtube"></i>
-                      </a>
-                    </div> */}
                   </div>
                 </div>
               </div>

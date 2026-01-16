@@ -2,3 +2,4 @@ User-agent: *
 Disallow:
 
 sitemap:https://www.sridurgaorthoneuroclinic.com/sitemap.xml
+sitemap:https://sridurgaorthoneuroclinic.com/sitemap.xml

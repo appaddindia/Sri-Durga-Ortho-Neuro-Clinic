@@ -1,4 +1,3 @@
-
 import Banner from "@/components/about/banner";
 import SEO from "@/components/seo";
 import FooterFour from "@/layout/footer/footer-4";
@@ -8,23 +7,24 @@ import Link from "next/link";
 import React from "react";
 
 const Index = () => {
-    const gallery=[
-        "/assets/img/aa178.jpg",
-        "/assets/img/aa179.jpg",
-        "/assets/img/aa180.jpg",
-        "/assets/img/aa181.jpg",
-        "/assets/img/aa182.jpg"
-    ]
+  const gallery = [
+    "/assets/img/aa178.jpg",
+    "/assets/img/aa179.jpg",
+    "/assets/img/aa180.jpg",
+    "/assets/img/aa181.jpg",
+    "/assets/img/aa182.jpg",
+    "/assets/img/2025-04-21.webp",
+  ];
   return (
     <Wrapper>
-      <SEO pageTitle="About" />
+      <SEO pageTitle="Gallery" />
       <HeaderTwo />
       <section
         className="pt-120 pb-120 breadcrumb__overlay"
         style={{
           backgroundImage: `url(/assets/img/aa177.avif)`,
-          backgroundPosition:"center",
-          backgroundSize:"cover"
+          backgroundPosition: "center",
+          backgroundSize: "cover",
         }}
       >
         <div className="container">
@@ -37,14 +37,15 @@ const Index = () => {
             <div className="col-xl-5 col-lg-12 col-md-12 col-12">
               <div className="tp-breadcrumb__link text-xl-end">
                 <span>
-                  Sri Durga Ortho & Neuro Clinic : <Link href="/"> Gallery</Link>
+                  Sri Durga Ortho & Neuro Clinic :{" "}
+                  <Link href="/"> Gallery</Link>
                 </span>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section  className="blog-area pt-90 pb-90">
+      <section className="blog-area pt-90 pb-90">
         <div className="container">
           {/* <div className="row align-items-center">
             <div className="col-md-8 col-12">
@@ -66,33 +67,38 @@ const Index = () => {
               </div>
             </div>
           </div> */}
-          
-            <div className="row">
+
+          <div className="row">
             {gallery.map((item) => (
-                <div key={item.id} className="col-lg-4 col-md-6 col-12">
-                  <div className="tp-blog mb-30">
-                    <div className="tp-blog__thumb p-relative fix">
-                      <a href="#">
-                      <div style={{width:"100%",aspectRatio:"3/2",backgroundImage: `url(${item})`,
-          backgroundPosition:"center",
-          backgroundSize:"cover"}}></div>
-                        {/* <img src={item.img} alt="blog-item" /> */}
-                      </a>
-                      {/* <div className="tp-blog__date text-center">
+              <div key={item.id} className="col-lg-4 col-md-6 col-12">
+                <div className="tp-blog mb-30">
+                  <div className="tp-blog__thumb p-relative fix">
+                    <a href="#">
+                      <div
+                        style={{
+                          width: "100%",
+                          aspectRatio: "3/2",
+                          backgroundImage: `url(${item})`,
+                          backgroundPosition: "center",
+                          backgroundSize: "cover",
+                        }}
+                      ></div>
+                      {/* <img src={item.img} alt="blog-item" /> */}
+                    </a>
+                    {/* <div className="tp-blog__date text-center">
                         <h4>{item.blog_date}</h4>
                       </div> */}
-                    </div>
                   </div>
                 </div>
+              </div>
             ))}
-            </div>
-          
+          </div>
         </div>
       </section>
-      
+
       <FooterFour />
     </Wrapper>
   );
 };
 
-export default Index;;
+export default Index;

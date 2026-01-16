@@ -105,17 +105,17 @@ const Sidebar = ({ isActive, setIsActive }) => {
           </div>
         </div>
         <div className="tpsideinfo__socialicon">
-          <a href="#">
+          <a href="https://www.youtube.com/@sridurgaorthoneuroclinic/">
             <i className="fa-brands fa-youtube"></i>
           </a>
-          <a href="#">
-            <i className="fa-brands fa-twitter"></i>
+          <a href="https://share.google/A4V80uN5VjBv7GHGx">
+            <i className="fa-brands fa-google"></i>
           </a>
-          <a href="#">
+          <a href="https://www.facebook.com/sridurgaorthoandneuro/">
             <i className="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="#">
-            <i className="fa-brands fa-skype"></i>
+          <a href="https://www.instagram.com/sridurgaorthoneuroclinic/">
+            <i className="fa-brands fa-instagram"></i>
           </a>
         </div>
       </div>

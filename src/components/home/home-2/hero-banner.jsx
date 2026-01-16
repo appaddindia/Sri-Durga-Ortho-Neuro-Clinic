@@ -69,6 +69,32 @@ const hero_slider = [
     // img_2: "../assets/img/aa163.png",
   },
   {
+    id: 4,
+    left_img: "/assets/img/500x500.webp", // replace with your uploaded img path
+    link: "/dr-subrata-kumar-pal",
+    experience_count: 42,
+    experience_count_text: (
+      <>
+        Years of <br />
+        Experience
+      </>
+    ),
+    title: "Physician",
+    section_title: "Dr. Subrata Kumar Pal",
+    section_sub_title: "MBBS, DGO, DCH",
+    section_des: (
+      <>
+        A compassionate physician with 42+ years of clinical experience in
+        Pediatrics, Obstetrics & Gynecology, and General Practice. Skilled in
+        managing diverse emergency, maternity and newborn cases with a strong
+        background in community healthcare services. Previously worked under
+        BSF, SSF, THS and renowned medical institutions across India.
+      </>
+    ),
+    know_more: "/dr-subrata-kumar-pal",
+    img_1: "/assets/img/500x500.webp", // place your final web image
+  },
+  {
     id: 1,
     left_img: "assets/img/about/about-bg-01.png",
     link: "/dr-surbhi",
